@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oswp-regionsliste\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-07 09:46+0000\n"
+"PO-Revision-Date: 2019-07-07 12:03+0200\n"
+"Last-Translator: Manni <openmanniland@gmx.de>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2\n"
+
+#: views/regionsliste-admin.php:73
+msgid "  call parameters HG Link:"
+msgstr "parámetros de llamada HG Link:"
+
+#: views/regionsliste-admin.php:39
+msgid "  Database setting"
+msgstr "Configuración de la base de datos"
+
+#: views/regionsliste-admin.php:33
+msgid "  Heading Widget Name:"
+msgstr "Nombre del widget de encabezado:"
+
+#: views/regionsliste-admin.php:70
+msgid "  HG Link setting"
+msgstr "Ajuste de HG Link"
+
+#: views/regionsliste-admin.php:80
+msgid "  IP or adress HG Link:"
+msgstr "IP o dirección HG Link:"
+
+#: views/regionsliste-admin.php:49
+msgid "  MySQL Database:"
+msgstr " Base de datos MySQL:"
+
+#: views/regionsliste-admin.php:64
+msgid "  MySQL Password:"
+msgstr "Contraseña de MySQL:"
+
+#: views/regionsliste-admin.php:42
+msgid "  MySQL Server IP:"
+msgstr " IP del servidor MySQL:"
+
+#: views/regionsliste-admin.php:56
+msgid "  MySQL User:"
+msgstr " Usuario de MySQL:"
+
+#: views/regionsliste-admin.php:87
+msgid "  Port HG Link:"
+msgstr "Enlace del puerto HG:"
+
+#. Author URI of the plugin
+msgid "http://openmanniland.de"
+msgstr "http://openmanniland.de"
+
+#. URI of the plugin
+msgid "https://github.com/BigManzai/oswp-regionsliste"
+msgstr "https://github.com/BigManzai/oswp-regionsliste"
+
+#. Author of the plugin
+msgid "Manfred Aabye"
+msgstr "Manfred Aabye"
+
+#. Name of the plugin
+msgid "oswp-regionsliste"
+msgstr "oswp-regionsliste"
+
+#. Description of the plugin
+msgid ""
+"The OpenSim plugin/widget displays the current region list. Please activate "
+"in the widget area and enter the MySQL data of the database."
+msgstr ""
+"The OpenSim plugin/widget displays the current region list. Please activate "
+"in the widget area and enter the MySQL data of the database."

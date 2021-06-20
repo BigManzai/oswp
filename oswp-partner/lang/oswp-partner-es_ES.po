@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oswp-partner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-24 09:16+0000\n"
+"PO-Revision-Date: 2019-07-24 11:27+0200\n"
+"Last-Translator: Manni <openmanniland@gmx.de>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2\n"
+
+#: oswp-partner-widget.php:27
+msgid "bidirectional"
+msgstr "Bidireccional"
+
+#: oswp-partner-widget.php:29
+msgid "Enter Avatar UUID:"
+msgstr "Introduzca Avatar UUID:"
+
+#: oswp-partner-widget.php:32
+msgid "Enter partner UUID of avatar:"
+msgstr "Introduzca el SOCIO UUID de avatar:"
+
+#: oswp-partner-widget.php:35
+msgid "Server :"
+msgstr "Servidor:"
+
+#: oswp-partner-widget.php:38
+msgid "Database name :"
+msgstr "Nombre de la base de datos :"
+
+#: oswp-partner-widget.php:41
+msgid "Database User name :"
+msgstr "Nombre de usuario de la base de datos:"
+
+#: oswp-partner-widget.php:44
+msgid "Database User Passwd :"
+msgstr "Usuario de la base de datos Passwd :"
+
+#: oswp-partner-widget.php:47
+msgid "Submit"
+msgstr "Enviar"
+
+#: oswp-partner-widget.php:48
+msgid "Reset"
+msgstr "Reiniciar"
+
+#. Name of the plugin
+msgid "oswp-partner"
+msgstr "oswp-partner"
+
+#. Description of the plugin
+msgid "Insert Partnering in OpenSim."
+msgstr "Insertar asociación en OpenSim."
+
+#. URI of the plugin
+msgid "https://github.com/BigManzai/oswp-partner"
+msgstr "https://github.com/BigManzai/oswp-partner"
+
+#. Author of the plugin
+msgid "Manfred Aabye"
+msgstr "Manfred Aabye"
+
+#. Author URI of the plugin
+msgid "http://openmanniland.de"
+msgstr "http://openmanniland.de"

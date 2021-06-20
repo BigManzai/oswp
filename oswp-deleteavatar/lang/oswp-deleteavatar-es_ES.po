@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oswp-deleteavatar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-06 08:47+0000\n"
+"PO-Revision-Date: 2019-07-06 11:01+0200\n"
+"Last-Translator: Manni <openmanniland@gmx.de>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2\n"
+
+#: oswp-deleteavatar.php:62
+msgid "  Delete OpenSim User from MySQL Database"
+msgstr "  Eliminar usuario de OpenSim de MySQL Database"
+
+#: oswp-deleteavatar.php:106
+msgid "Server :"
+msgstr "Servidor:"
+
+#: oswp-deleteavatar.php:109
+msgid "Database name :"
+msgstr "Nombre de la base de datos :"
+
+#: oswp-deleteavatar.php:112
+msgid "Database User name :"
+msgstr "Nombre de usuario de la base de datos:"
+
+#: oswp-deleteavatar.php:115
+msgid "Database User Passwd :"
+msgstr "Usuario de la base de datos Passwd :"
+
+#: oswp-deleteavatar.php:118
+msgid "Delete User UUID :"
+msgstr "Eliminar UUID de usuario:"
+
+#: oswp-deleteavatar.php:121
+msgid "Delete Avatar"
+msgstr "Eliminar Avatar"
+
+#: oswp-deleteavatar.php:122
+msgid "Reset"
+msgstr "Reiniciar"
+
+#. Name of the plugin
+msgid "oswp-deleteavatar"
+msgstr "oswp-deleteavatar"
+
+#. Description of the plugin
+msgid "OpenSimulator WordPress Delete Avatar dashboard menu."
+msgstr "OpenSimulator WordPress Eliminar menú del panel de avatar."
+
+#. URI of the plugin
+msgid "https://github.com/BigManzai/oswp-deleteavatar"
+msgstr "https://github.com/BigManzai/oswp-deleteavatar"
+
+#. Author of the plugin
+msgid "Manfred Aabye"
+msgstr "Manfred Aabye"
+
+#. Author URI of the plugin
+msgid "http://openmanniland.de"
+msgstr "http://openmanniland.de"

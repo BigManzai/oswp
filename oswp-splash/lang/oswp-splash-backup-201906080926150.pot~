@@ -1,0 +1,140 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: oswp-splash\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-08 09:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.1"
+
+#: views/splash-admin.php:78
+msgid "  Grid Name oder Überschrift:"
+msgstr ""
+
+#: views/splash-admin.php:92
+msgid "  MySQL Database:"
+msgstr ""
+
+#: views/splash-admin.php:85
+msgid "  MySQL Server IP:"
+msgstr ""
+
+#: views/splash-admin.php:99
+msgid "  MySQL User:"
+msgstr ""
+
+#: views/splash-admin.php:106
+msgid "  Password:"
+msgstr ""
+
+#: views/splash-admin.php:30
+msgid "Aktiv in den letzten 30 Tagen"
+msgstr ""
+
+#: views/splash-widget.php:69
+msgid "Aktiv in den letzten 30 Tagen : "
+msgstr ""
+
+#: views/splash-admin.php:45
+msgid "Aktive Freundschaften"
+msgstr ""
+
+#: views/splash-widget.php:72
+msgid "Aktive Freundschaften : "
+msgstr ""
+
+#: views/splash-admin.php:50
+msgid "Aktive Gruppen"
+msgstr ""
+
+#: views/splash-widget.php:73
+msgid "Aktive Gruppen : "
+msgstr ""
+
+#: views/splash-admin.php:65
+msgid "Gesamt Regionen"
+msgstr ""
+
+#: views/splash-widget.php:76
+msgid "Gesamt Regionen : "
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://openmanniland.de"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/BigManzai/oswp"
+msgstr ""
+
+#: views/splash-admin.php:35
+msgid "Hypergrid Nutzer"
+msgstr ""
+
+#: views/splash-widget.php:70
+msgid "Hypergrid Nutzer : "
+msgstr ""
+
+#. Author of the plugin
+msgid "Manfred Aabye"
+msgstr ""
+
+#: views/splash-admin.php:55
+msgid "Normale Regionen"
+msgstr ""
+
+#: views/splash-widget.php:74
+msgid "Normale Regionen : "
+msgstr ""
+
+#: views/splash-admin.php:25
+msgid "Nutzer im Grid"
+msgstr ""
+
+#: views/splash-widget.php:68
+msgid "Nutzer im Grid : "
+msgstr ""
+
+#. Name of the plugin
+msgid "oswp-splash"
+msgstr ""
+
+#: views/splash-admin.php:70
+msgid "Regionen in m²"
+msgstr ""
+
+#: views/splash-widget.php:77
+msgid "Regionen in m² : "
+msgstr ""
+
+#: views/splash-admin.php:40
+msgid "Registrationen"
+msgstr ""
+
+#: views/splash-widget.php:71
+msgid "Registrationen : "
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Splash Informationen über den OpenSimulator anzeigen. Bitte im Widget "
+"Bereich aktivieren und die MySQL Daten eingeben. Sie können eine Extra Seite "
+"in WordPress anlegen und diese splash benennen. Diesen Link zur Splash Seite "
+"dann in die Grid.ini eintragen unter welcome = ihre-splash-seite.com."
+msgstr ""
+
+#: views/splash-admin.php:60
+msgid "Var Regionen"
+msgstr ""
+
+#: views/splash-widget.php:75
+msgid "Var Regionen : "
+msgstr ""

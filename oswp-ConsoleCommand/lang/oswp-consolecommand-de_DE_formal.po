@@ -1,0 +1,1487 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oswp-consolecommand\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-02 10:09+0000\n"
+"PO-Revision-Date: 2019-04-02 12:39+0200\n"
+"Last-Translator: Manfred Aabye <openmanniland@gmx.de>\n"
+"Language-Team: Deutsch (Sie)\n"
+"Language: de_DE@formal\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1\n"
+
+#: oswp-ConsoleCommand.php:73
+msgid "alert - Send an alert to everyone"
+msgstr "alert - Senden Sie eine Benachrichtigung an alle"
+
+#: oswp-ConsoleCommand.php:74
+msgid "alert-user firstname lastname message - Send an alert to a user"
+msgstr ""
+"alert-user - Vornamens Nachnamen Nachricht - Sendet eine Benachrichtigung an "
+"einen Benutzer"
+
+#: oswp-ConsoleCommand.php:75
+msgid ""
+"appearance find uuid-or-start-of-uuid - Find out which avatar uses the given "
+"asset as a baked texture, if any."
+msgstr ""
+"appearance find uuid-or-start-of-uuid - Finden Sie heraus, welcher Avatar "
+"den gegebenen Vermögenswert als gebackene Textur verwendet, wenn überhaupt."
+
+#: oswp-ConsoleCommand.php:76
+#, fuzzy
+msgid ""
+"appearance rebake first-name last-name - Send a request to the users viewer "
+"for it to rebake and reupload its appearance textures."
+msgstr ""
+"Erscheinungsbild Rebake Vorname Vorname-Senden Sie eine Anfrage an den "
+"Benutzer-Viewer, um es zu rebellieren und wieder hochzuladen seine "
+"Erscheinung-Texturen."
+
+#: oswp-ConsoleCommand.php:77
+#, fuzzy
+msgid ""
+"appearance send first-name last-name - Send appearance data for each avatar "
+"in the simulator to other viewers."
+msgstr ""
+"Auftritt senden Vornamen Vorname-Senden Sie Optionsdaten für jeden Avatar im "
+"Simulator an andere Zuschauer."
+
+#: oswp-ConsoleCommand.php:78
+#, fuzzy
+msgid ""
+"appearance show first-name last-name - Show appearance information for "
+"avatars."
+msgstr ""
+"Erscheinungsbild zeigt Vornamen Vorname-Show Erscheinungsinformationen für "
+"Avatare."
+
+#: oswp-ConsoleCommand.php:79
+#, fuzzy
+msgid ""
+"attachments show first-name last-name - Show attachment information for "
+"avatars in this simulator."
+msgstr ""
+"Anhänge zeigen den Vornamen des Vornamens-zeigen Sie in diesem Simulator "
+"Anbauinformationen für Avatare."
+
+#: oswp-ConsoleCommand.php:80
+#, fuzzy
+msgid ""
+"backup - Persist currently unsaved object changes immediately instead of "
+"waiting for the normal persistence call."
+msgstr ""
+"Backup-Persist derzeit nicht gespeicherte Objekte ändert sich sofort, "
+"anstatt auf den normalen Daueraufruf zu warten."
+
+#: oswp-ConsoleCommand.php:81
+#, fuzzy
+msgid "bypass permissions true / false - Bypass permission checks"
+msgstr "Bypass-Berechtigungen wahr/falsch-Bypass-Genehmigungskontrollen"
+
+#: oswp-ConsoleCommand.php:82
+#, fuzzy
+msgid "change region region name - Change current console region"
+msgstr "Name der Region ändern-Aktuelle Konsolenregion ändern"
+
+#: oswp-ConsoleCommand.php:83
+#, fuzzy
+msgid ""
+"clear image queues first-name last-name - Clear the image queues textures "
+"downloaded via UDP for a particular client."
+msgstr ""
+"Klarsicht-Schlangen im Vornamen im Vornamen-Löschen Sie die Bildschlangen "
+"Texturen, die über UDP für einen bestimmten Client heruntergeladen werden."
+
+#: oswp-ConsoleCommand.php:84
+#, fuzzy
+msgid "command-script script - Run a command script from file"
+msgstr "Befehlskript-Führen Sie ein Befehlskript aus der Datei"
+
+#: oswp-ConsoleCommand.php:85
+#, fuzzy
+msgid "config get section key - Synonym for config show"
+msgstr "Konfiguration erhält Sektionsschlüssel-Synonym für Konfigurationsshow"
+
+#: oswp-ConsoleCommand.php:86
+#, fuzzy
+msgid ""
+"config save path - Save current configuration to a file at the given path"
+msgstr ""
+"Konfiguration des Pfads-Speichern Sie die aktuelle Konfiguration in eine "
+"Datei auf dem gegebenen Pfad"
+
+#: oswp-ConsoleCommand.php:87
+#, fuzzy
+msgid ""
+"config set section key value - Set a config option.  In most cases this is "
+"not useful since changed parameters are not dynamically reloaded.  Neither "
+"do changed parameters persist - you will have to change a config file "
+"manually and restart."
+msgstr ""
+"Konfiguration der Schlüsselwert des Abschnitts-Setzen Sie eine "
+"Konfigurationsoption.  In den meisten Fällen ist dies nicht sinnvoll, da "
+"geänderte Parameter nicht dynamisch neu geladen werden.  Auch die geänderten "
+"Parameter bleiben nicht bestehen-Sie müssen eine Konfigurationsdatei manuell "
+"ändern und neu starten."
+
+#: oswp-ConsoleCommand.php:88
+#, fuzzy
+msgid "config show section key - Show config information"
+msgstr "Konfiguration zeigt Sektionsschlüssel-Konfiguration anzeigen"
+
+#: oswp-ConsoleCommand.php:89
+#, fuzzy
+msgid "create region region name region_file.ini - Create a new region."
+msgstr ""
+"Erstellen Sie die Region Name region _ file.ini-Erstellen Sie eine neue "
+"Region."
+
+#: oswp-ConsoleCommand.php:90
+#, fuzzy
+msgid "debug attachments log 0|1 - Turn on attachments debug logging"
+msgstr "Anhänge debuggt log 0 | 1-Schalten Sie die Anhänge Debug-Logging"
+
+#: oswp-ConsoleCommand.php:91
+#, fuzzy
+msgid "debug attachments status - Show current attachments debug status"
+msgstr ""
+"Anhänge debuggen Status debuggt-aktuelle Anhänge debuggen Status anzeigen"
+
+#: oswp-ConsoleCommand.php:92
+#, fuzzy
+msgid ""
+"debug eq 0|1|2 - Turn on event queue debugging = 0 - turns off all event "
+"queue logging = 1 - turns on event queue setup and outgoing event logging = "
+"2 - turns on poll notification"
+msgstr ""
+"Debug eq 0 | 1 | 2-Drehen Sie auf die Ereignisschlange Debugging = 0-"
+"schaltet alle Ereignisqueue-Logging = 1-schaltet auf Event-Warteschlangen-"
+"Setup und ausgehende Ereignisprotokolle = 2-schaltet auf die Umfragebeldung "
+"ein"
+
+#: oswp-ConsoleCommand.php:93
+#, fuzzy
+msgid ""
+"debug groups messaging verbose true|false - This setting turns on very "
+"verbose groups messaging debugging"
+msgstr ""
+"Debug-Gruppen Messaging verbose true | false-Diese Einstellung dreht sich "
+"auf sehr verbose Gruppen Messaging-Debugging"
+
+#: oswp-ConsoleCommand.php:94
+#, fuzzy
+msgid ""
+"debug groups verbose true|false - This setting turns on very verbose groups "
+"debugging"
+msgstr ""
+"Debug-Gruppen verbose true | false-Diese Einstellung dreht sich auf sehr "
+"verbose Gruppen Debugging"
+
+#: oswp-ConsoleCommand.php:95
+#, fuzzy
+msgid "debug http in|out|all level - Turn on http request logging."
+msgstr "Debug-http in | out | alle Ebenen-Einschalten auf http Anfrage loggen."
+
+#: oswp-ConsoleCommand.php:96
+#, fuzzy
+msgid ""
+"debug jobengine start|stop|status|log - Start, stop, get status or set "
+"logging level of the job engine."
+msgstr ""
+"Debug-Jobengine start | stop | status | log-Start, Stopp, Status erhalten "
+"oder Logging-Level der Job-Engine einstellen."
+
+#: oswp-ConsoleCommand.php:97
+#, fuzzy
+msgid "debug permissions true / false - Turn on permissions debugging"
+msgstr ""
+"Berechtigungen wahr/falsch debuggen-Einschalten von Berechtigungen, die "
+"debugging"
+
+#: oswp-ConsoleCommand.php:98
+#, fuzzy
+msgid "debug scene get - List current scene options."
+msgstr "Debug-Szene erhalten-Liste der aktuellen Szene-Optionen."
+
+#: oswp-ConsoleCommand.php:99
+#, fuzzy
+msgid "debug scene set param value - Turn on scene debugging options."
+msgstr "Debug-Szene set param value-Turn on scene debugging options."
+
+#: oswp-ConsoleCommand.php:100
+#, fuzzy
+msgid ""
+"debug scripts log item-id log-level - Extra debug logging for a particular "
+"script."
+msgstr ""
+"Debug-Skripte loggen item-id log-level-Extra Debug-Logging für ein "
+"bestimmtes Skript."
+
+#: oswp-ConsoleCommand.php:101
+#, fuzzy
+msgid ""
+"debug threadpool level 0..3 - Turn on logging of activity in the main thread "
+"pool."
+msgstr ""
+"Debug-Pthreadpool-Level 0 .. 3-Schalten Sie die Protokollierung der "
+"Aktivität im Haupt-Thread-Pool ein."
+
+#: oswp-ConsoleCommand.php:102
+#, fuzzy
+msgid ""
+"debug threadpool set worker|iocp min|max n - Set threadpool parameters.  For "
+"debug purposes."
+msgstr ""
+"Debug Threadpool set worker | iocp min | max n-Set threadpool parameter.  "
+"Für Debug-Zwecke."
+
+#: oswp-ConsoleCommand.php:103
+#, fuzzy
+msgid "debug threadpool status - Show current debug threadpool parameters."
+msgstr ""
+"Threadpool-Status debugelt-Zeigen Sie die aktuellen Debug-Threadpool-"
+"Parameter."
+
+#: oswp-ConsoleCommand.php:104
+#, fuzzy
+msgid "debug xengine log level - Turn on detailed xengine debugging."
+msgstr ""
+"Debug xengine Log-Level-Schalten Sie detailliertes xengine Debugging ein."
+
+#: oswp-ConsoleCommand.php:105
+#, fuzzy
+msgid "delete object creator UUID - Delete scene objects by creator"
+msgstr "Objektschöpfer UUID löschen-Szenenobjekte durch den Schöpfer löschen"
+
+#: oswp-ConsoleCommand.php:106
+#, fuzzy
+msgid ""
+"delete object id UUID-or-localID - Delete a scene object by uuid or localID"
+msgstr ""
+"Löschen Sie Objekt ID UUID-oder localID-Löschen Sie ein Szenenobjekt von "
+"uuid oder localID"
+
+#: oswp-ConsoleCommand.php:107
+#, fuzzy
+msgid "delete object name --regex name - Delete a scene object by name."
+msgstr ""
+"Löschen Sie den Objektnamen--regex Name-Löschen Sie ein Szenenobjekt mit "
+"Namen."
+
+#: oswp-ConsoleCommand.php:108
+#, fuzzy
+msgid ""
+"delete object outside - Löscht alle Szenenobjekte außerhalb der "
+"Regionsgrenzen"
+msgstr ""
+"Objekt draußen löschen-Löscht alle Szenenobjekte außerhalb der "
+"Regionsgrenzen löschen"
+
+#: oswp-ConsoleCommand.php:109
+#, fuzzy
+msgid "delete object owner UUID - Delete scene objects by owner"
+msgstr "Objektbesitzer UUID löschen-Szenenobjekte löschen"
+
+#: oswp-ConsoleCommand.php:110
+#, fuzzy
+msgid ""
+"delete object pos start x, start y , start z end x, end y, end z - Delete "
+"scene objects within the given volume."
+msgstr ""
+"Löschen Sie Objekt pos start x, start y, start z end x, end y, end z-Löschen "
+"Sie Szenenobjekte innerhalb der angegebenen Lautstärke."
+
+#: oswp-ConsoleCommand.php:111
+#, fuzzy
+msgid "delete-region name - Delete a region from disk"
+msgstr "Name der Delete-Region-Eine Region aus der Scheibe löschen"
+
+#: oswp-ConsoleCommand.php:112
+#, fuzzy
+msgid "dump asset id - Dump an asset"
+msgstr "Müllhalde ablegen-ein Vermögen abwerfen"
+
+#: oswp-ConsoleCommand.php:113
+#, fuzzy
+msgid ""
+"dump object id UUID-or-localID - Dump the formatted serialization of the "
+"given object to the file UUID.xml"
+msgstr ""
+"Dumping-Objekt ID UUID-or localID-Dump die formatierte Serialisierung des "
+"gegebenen Objekts in die Datei UUID.xml"
+
+#: oswp-ConsoleCommand.php:114
+#, fuzzy
+msgid "edit scale name x y z - Change the scale of a named prim"
+msgstr "Skalennamen x y z bearbeiten-Die Skala eines benannten Prims ändern"
+
+#: oswp-ConsoleCommand.php:283
+#, fuzzy
+msgid "End of Commands"
+msgstr "Ende der Befehle"
+
+#: oswp-ConsoleCommand.php:115
+#, fuzzy
+msgid ""
+"estate create owner UUID estate name - Creates a new estate with the "
+"specified name, owned by the specified user. Estate name must be unique."
+msgstr ""
+"Grundstückserei Eigentümer UUID Immobilien-Name-Erstellt eine neue Immobilie "
+"mit dem angegebenen Namen, die im Besitz des angegebenen Benutzers. Der Name "
+"des Anwesens muss eindeutig sein."
+
+#: oswp-ConsoleCommand.php:116
+#, fuzzy
+msgid ""
+"estate link region estate ID region ID - Attaches the specified region to "
+"the specified estate."
+msgstr ""
+"Nachlass-Region Immobilien-Region ID Region ID-Angriff auf die angegebene "
+"Region auf die angegebenen Immobilien."
+
+#: oswp-ConsoleCommand.php:117
+#, fuzzy
+msgid ""
+"estate set name estate-id new name - Sets the name of the specified estate "
+"to the specified value. New name must be unique."
+msgstr ""
+"Nachlass-Name estate-id neuer Name-Setzt den Namen des angegebenen "
+"Nachlasses auf den angegebenen Wert. Neuer Name muss einmalig sein."
+
+#: oswp-ConsoleCommand.php:118
+#, fuzzy
+msgid ""
+"estate set owner estate-id UUID | Firstname Lastname  - Sets the owner of "
+"the specified estate to the specified UUID or user."
+msgstr ""
+"Grundstück-Set-Eigentümer estate-id UUID | Vorname Lastname-Setzt den "
+"Eigentümer der angegebenen Immobilie an die angegebene UUID oder den "
+"Benutzer."
+
+#: oswp-ConsoleCommand.php:119
+#, fuzzy
+msgid "estate show - Shows all estates on the simulator."
+msgstr "Nachlass-Show-Zeigt alle Nachlässte auf dem Simulator."
+
+#: oswp-ConsoleCommand.php:120
+#, fuzzy
+msgid "export-map path - Save an image of the world map"
+msgstr "Export-Kartenpfad-Speichern Sie ein Bild der Weltkarte"
+
+#: oswp-ConsoleCommand.php:121
+#, fuzzy
+msgid ""
+"fcache assets - Attempt a deep scan and cache of all assets in all scenes"
+msgstr ""
+"Fcache Assets-Versuch, einen tiefen Scan und Cache aller Assets in allen "
+"Szenen"
+
+#: oswp-ConsoleCommand.php:122
+#, fuzzy
+msgid ""
+"fcache clear file memory - Remove all assets in the cache.  If file or "
+"memory is specified then only this cache is cleared."
+msgstr ""
+"fcache clear file memory-Entfernen Sie alle Assets im Cache.  Wenn Datei "
+"oder Speicher angegeben werden, dann wird nur dieser Cache gelöscht."
+
+#: oswp-ConsoleCommand.php:123
+#, fuzzy
+msgid ""
+"fcache expire datetime - Purge cached assets older then the specified date/"
+"time"
+msgstr ""
+"fcache verfällt die Zeit-Purge zwischengespeicherte Assets älter als die "
+"angegebene Zeit"
+
+#: oswp-ConsoleCommand.php:124
+#, fuzzy
+msgid "fcache status - Display cache status"
+msgstr "fcache Status-Display-Cache-Status"
+
+#: oswp-ConsoleCommand.php:125
+#, fuzzy
+msgid ""
+"force gc - Manually invoke runtime garbage collection.  For debugging "
+"purposes"
+msgstr "Kraft gc-Manual aufruft die Müllabfuhr.  Für Debugging"
+
+#: oswp-ConsoleCommand.php:126
+#, fuzzy
+msgid "force permissions true / false - Force permissions on or off"
+msgstr "Trupprechte wahr/falsch-Gewalteinlagen ein-oder ausschalten"
+
+#: oswp-ConsoleCommand.php:127
+#, fuzzy
+msgid "force update - Force the update of all objects on clients"
+msgstr "Kraft-Update-Toben Sie das Update aller Objekte auf Clients"
+
+#: oswp-ConsoleCommand.php:128
+#, fuzzy
+msgid ""
+"friends show --cache first-name last-name - Show the friends for the given "
+"user if they exist."
+msgstr ""
+"Freunde zeigen--cache Vornamen-Zeigen Sie den Freunden für den angegebenen "
+"Benutzer, wenn sie existieren."
+
+#: oswp-ConsoleCommand.php:129
+#, fuzzy
+msgid "generate map - Generates and stores a new maptile."
+msgstr "Karte generieren-Generaten und speichern eine neue Karte."
+
+#: oswp-ConsoleCommand.php:130
+#, fuzzy
+msgid "get log level - Get the current console logging level"
+msgstr "Log-Level erhalten-Get the current console logging level"
+
+#: oswp-ConsoleCommand.php:131
+#, fuzzy
+msgid ""
+"help item - Display help on a particular command or on a list of commands in "
+"a category"
+msgstr ""
+"Hilfestellung-Hilfe auf einem bestimmten Befehl anzeigen oder auf einer "
+"Befehlsliste in einer Kategorie"
+
+#: oswp-ConsoleCommand.php:132 oswp-ConsoleCommand.php:133
+#, fuzzy
+msgid "help Terrain - Get help on plugin command terrain"
+msgstr "Hilfe für Terrain-Hilfe auf Plugin-Befehlsgelände"
+
+#: oswp-ConsoleCommand.php:134 oswp-ConsoleCommand.php:135
+#, fuzzy
+msgid "help Tree - Get help on plugin command tree"
+msgstr "Hilfe für Baum-Hilfe auf Plugin-Befehlsbaum"
+
+#: oswp-ConsoleCommand.php:136 oswp-ConsoleCommand.php:137
+#, fuzzy
+msgid "help Windlight - Get help on plugin command windlight"
+msgstr "Helfen Sie Windlight-Holen Sie Hilfe auf Plug-In-Kommando Windlicht"
+
+#. Author URI of the plugin
+#, fuzzy
+msgid "http://openmanniland.de"
+msgstr "http://openmanniland.de"
+
+#. URI of the plugin
+#, fuzzy
+msgid "https://github.com/BigManzai/oswp-consolecommand"
+msgstr "https://github.com/BigManzai/oswp-consolecommand"
+
+#: oswp-ConsoleCommand.php:138
+#, fuzzy
+msgid "j2k decode ID - Do JPEG2000 decoding of an asset."
+msgstr "j2k-decode-ID-Machen Sie JPEG2000-Dekodierung eines Vermögenswertes."
+
+#: oswp-ConsoleCommand.php:139
+#, fuzzy
+msgid "kick user first last --force message - Kick a user off the simulator"
+msgstr "Kick-User first last--force message-Kick a user off the simulator"
+
+#: oswp-ConsoleCommand.php:140
+#, fuzzy
+msgid "land clear - Clear all the parcels from the region."
+msgstr "Land klar-Alle Pakete aus der Region löschen."
+
+#: oswp-ConsoleCommand.php:141
+#, fuzzy
+msgid ""
+"land show local-land-id - Show information about the parcels on the region."
+msgstr ""
+"Land zeigen Lokal-Land-ID-Informationen über die Pakete zur Region anzeigen."
+
+#: oswp-ConsoleCommand.php:142
+#, fuzzy
+msgid "link-mapping x y - Set local coordinate to map HG regions to"
+msgstr ""
+"Link-Mapping x y-Stellen Sie lokale Koordinaten ein, um die HG-Regionen zu "
+"kartieren"
+
+#: oswp-ConsoleCommand.php:143
+#, fuzzy
+msgid ""
+"link-region Xloc Yloc ServerURI RemoteRegionName - Link a HyperGrid Region. "
+"Examples for ServerURI: http://grid.net:8002/ or http://example.org/path/foo."
+"php"
+msgstr ""
+"Link-Region Xloc Yloc ServerURI RemoteRegionName-Link a HyperGrid Region. "
+"Beispiele für ServerURI: http://grid.net:8002/oder http://example.org/path/"
+"foo.php"
+
+#: oswp-ConsoleCommand.php:144
+#, fuzzy
+msgid ""
+"load iar -m|--merge first last inventory path password IAR path - Load user "
+"inventory archive IAR."
+msgstr ""
+"Laden Sie iar-m |--merge erste letzte Inventarpfad-Passwort IAR-Pfad-Laden "
+"Sie das Benutzerinventar-Archiv IAR."
+
+#: oswp-ConsoleCommand.php:145
+#, fuzzy
+msgid ""
+"load oar -m|--merge -s|--skip-assets --default-user User Name --force-"
+"terrain --force-parcels --no-objects --rotation degrees --bounding-origin x,"
+"y,z --bounding-size x,y,z --displacement x,y,z -d|--debug OAR path - Load a "
+"regions data from an OAR archive."
+msgstr ""
+"load oar-m |--merge-s |--skip-assets--default-user User Name--force-terrain--"
+"force-parcels--no-objects--rotation grads x, y, z--bounding-size x, y, z--"
+"displacement x, y, z-d |--debug OAR-Pfad-Laden Sie eine Region Daten aus "
+"einem OAR-Archiv ."
+
+#: oswp-ConsoleCommand.php:146
+#, fuzzy
+msgid "load xml file name -newUID x y z - Load a regions data from XML format"
+msgstr ""
+"xml-Dateiname-newUID x y z-Laden Sie eine Region Daten aus dem XML-Format"
+
+#: oswp-ConsoleCommand.php:147
+#, fuzzy
+msgid "load xml2 file name - Load a regions data from XML2 format"
+msgstr "Xml2-Dateiname laden-Laden Sie eine Region Daten aus dem XML2-Format"
+
+#: oswp-ConsoleCommand.php:148
+#, fuzzy
+msgid "login disable - Disable simulator logins"
+msgstr "Login deaktivieren-Simulator-Logins deaktivieren"
+
+#: oswp-ConsoleCommand.php:149
+#, fuzzy
+msgid "login enable - Enable simulator logins"
+msgstr "Logimelfähig-Simulator-Logins aktivieren"
+
+#: oswp-ConsoleCommand.php:150
+#, fuzzy
+msgid "login status - Show login status"
+msgstr "Login-Status-Login-Status anzeigen"
+
+#. Author of the plugin
+#, fuzzy
+msgid "Manfred Aabye"
+msgstr "Manfred Aabye"
+
+#: oswp-ConsoleCommand.php:151
+#, fuzzy
+msgid ""
+"monitor report - Returns a variety of statistics about the current region "
+"and/or simulator"
+msgstr ""
+"Monitoringbericht-veröffentlicht eine Vielzahl von Statistiken über die "
+"aktuelle Region und/oder Simulator"
+
+#: oswp-ConsoleCommand.php:66
+#, fuzzy
+msgid "OpenSimulator Console Commands"
+msgstr "OpenSimulator Console Commands"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"OpenSimulator WordPress Console Command only appears in the Admin menu. The "
+"plugin will be added to the left side of your dashboard menu. The plugin "
+"sends a freely selectable command to the OpenSimulator."
+msgstr ""
+"OpenSimulator WordPress-Konsole-Kommando erscheint nur im Admin-Menü. Das "
+"Plugin wird auf der linken Seite Ihres Armaturenbrett-Menüs hinzugefügt. Das "
+"Plugin sendet einen frei wählbaren Befehl an den OpenSimulator."
+
+#. Name of the plugin
+#, fuzzy
+msgid "oswp-consolecommand"
+msgstr "oswp-consolekommand"
+
+#: oswp-ConsoleCommand.php:152
+#, fuzzy
+msgid ""
+"physics get param|ALL - Get physics parameter from currently selected region"
+msgstr ""
+"Die Physik hat param | ALL-Get Physik-Parameter aus der aktuell ausgewählten "
+"Region"
+
+#: oswp-ConsoleCommand.php:153
+#, fuzzy
+msgid "physics list - List settable physics parameters"
+msgstr "Physik-Liste-Liste der festgelegten physikalischen Parameter"
+
+#: oswp-ConsoleCommand.php:154
+#, fuzzy
+msgid ""
+"physics set param value|TRUE|FALSE localID|ALL - Set physics parameter from "
+"currently selected region"
+msgstr ""
+"Die Physik setzt param Wert | TRUE | FALSE localID | ALL-Set Physik-"
+"Parameter aus der aktuell ausgewählten Region"
+
+#: oswp-ConsoleCommand.php:155
+#, fuzzy
+msgid "quit - Quit the application"
+msgstr "Aufhören-Beenden Sie die Anwendung"
+
+#: oswp-ConsoleCommand.php:156
+#, fuzzy
+msgid ""
+"region get - Show control information for the currently selected region host "
+"name, max physical prim size, etc."
+msgstr ""
+"Region get-Zeigen Sie Kontrollinformationen für den aktuell ausgewählten "
+"Region-Hostnamen, maximale physikalische Prim-Größe, etc."
+
+#: oswp-ConsoleCommand.php:157
+#, fuzzy
+msgid "region restart abort message - Abort a region restart"
+msgstr "Regionalneustart abgebrochen Nachricht-Abort ein Regionalneustart"
+
+#: oswp-ConsoleCommand.php:158
+#, fuzzy
+msgid ""
+"region restart bluebox message delta seconds+ - Schedule a region restart"
+msgstr ""
+"Region Neustart Bluebox-Nachricht Delta-Sekunden +-Planen Sie einen "
+"regionalen Neustart"
+
+#: oswp-ConsoleCommand.php:159
+#, fuzzy
+msgid ""
+"region restart notice message delta seconds+ - Schedule a region restart"
+msgstr "Benachrichtigung der Region neu"
+
+#: oswp-ConsoleCommand.php:160
+#, fuzzy
+msgid "region set - Set control information for the currently selected region."
+msgstr ""
+"Regie-Set-Steuerungsinformationen für die aktuell ausgewählte Region "
+"einstellen."
+
+#: oswp-ConsoleCommand.php:161
+#, fuzzy
+msgid "remove-region name - Remove a region from this simulator"
+msgstr "Abzugsgebietsname-Entfernen Sie eine Region aus diesem Simulator"
+
+#: oswp-ConsoleCommand.php:162
+#, fuzzy
+msgid ""
+"reset user cache - reset user cache to allow changed settings to be applied"
+msgstr ""
+"Benutzercache zurücksetzen-Benutzercache zurücksetzen, um geänderte "
+"Einstellungen anwenden zu können"
+
+#: oswp-ConsoleCommand.php:163
+#, fuzzy
+msgid "restart - Restart the currently selected regions in this instance"
+msgstr "Neustart-Neustart der aktuell ausgewählten Regionen in diesem Fall"
+
+#: oswp-ConsoleCommand.php:164
+#, fuzzy
+msgid ""
+"rotate scene degrees centerX, centerY - Rotates all scene objects around "
+"centerX, centerY default 128, 128 please back up your region before using."
+msgstr ""
+"Drehen Sie Szene-Grad centerX, centerY-Dreht alle Szenenobjekte rund um "
+"centerX, centerY Standard 128, 128 bitte sichern Sie Ihre Region vor der "
+"Verwendung."
+
+#: oswp-ConsoleCommand.php:165
+#, fuzzy
+msgid ""
+"save iar -h|--home=url --noassets first last inventory path password IAR "
+"path -c|--creators -e|--exclude=name/uuid -f|--excludefolder=foldername/uuid "
+"-v|--verbose - Save user inventory archive IAR."
+msgstr ""
+"Speichern Sie iar-h |--home = url--noassets erste letzte Inventarpfad-"
+"Passwort IAR-Pfad-c |--creators-e |--excludefolder = foldername/uuuid-v |--"
+"verbose-Speichern Sie das User-Inventar-Archiv IAR."
+
+#: oswp-ConsoleCommand.php:166
+#, fuzzy
+msgid ""
+"save oar -h|--home=url --noassets --publish --perm=permissions --all OAR "
+"path - Save a regions data to an OAR archive."
+msgstr ""
+"save oar-h |--home = url--noassets--publish--perm = Berechtigungen--alle OAR-"
+"Pfad-Speichern Sie eine Region Daten in einem OAR-Archiv."
+
+#: oswp-ConsoleCommand.php:167
+#, fuzzy
+msgid "save prims xml2 prim name file name - Save named prim to XML2"
+msgstr "Prims xml2 prim name name name-Save named prim to XML2"
+
+#: oswp-ConsoleCommand.php:168
+#, fuzzy
+msgid "save xml file name - Save a regions data in XML format"
+msgstr "xml-Dateiname speichern-speichern Sie eine Region Daten im XML-Format"
+
+#: oswp-ConsoleCommand.php:169
+#, fuzzy
+msgid "save xml2 file name - Save a regions data in XML2 format"
+msgstr ""
+"xml2-Dateiname speichern-Speichern Sie eine Region Daten im XML2-Format"
+
+#: oswp-ConsoleCommand.php:170
+#, fuzzy
+msgid ""
+"scale scene factor - Scales the scene objects please back up your region "
+"before using"
+msgstr ""
+"Skalenfaktor-skalieren Sie die Szeneobjekte bitte sichern Sie Ihre Region "
+"vor der Verwendung"
+
+#: oswp-ConsoleCommand.php:171
+#, fuzzy
+msgid "scripts resume script-item-uuid+ - Resumes all suspended scripts"
+msgstr ""
+"Skripte nehmen Skript-item-uuid + wieder auf-Lebensläufe aller suspendierten "
+"Skripte"
+
+#: oswp-ConsoleCommand.php:172
+#, fuzzy
+msgid "scripts show script-item-uuid+ - Show script information"
+msgstr "Skripte zeigen Skript-item-uuid +-Skriptinformationen anzeigen"
+
+#: oswp-ConsoleCommand.php:173
+#, fuzzy
+msgid "scripts start script-item-uuid+ - Starts all stopped scripts"
+msgstr "Skripte starten Skript-item-uuid +-Starts all stopped scripts"
+
+#: oswp-ConsoleCommand.php:174
+#, fuzzy
+msgid "scripts stop script-item-uuid+ - Stops all running scripts"
+msgstr "Skripte stoppen Skripte item-uuid +-Stoppt alle laufenden Skripte"
+
+#: oswp-ConsoleCommand.php:175
+#, fuzzy
+msgid "scripts suspend script-item-uuid+ - Suspends all running scripts"
+msgstr "Skripte suspendieren Skript-item-uuid +-Suspends all running scripts"
+
+#: oswp-ConsoleCommand.php:176
+#, fuzzy
+msgid "set log level level - Set the console logging level for this session."
+msgstr ""
+"Log-Level einstellen-Setzen Sie die Konsolen-Protokollierung für diese "
+"Sitzung."
+
+#: oswp-ConsoleCommand.php:177
+#, fuzzy
+msgid ""
+"set terrain heights corner min max x y - Sets the terrain texture heights on "
+"corner #corner to min/max, if x or y are specified, it will only set it on "
+"regions with a matching coordinate. Specify -1 in x or y to wildcard that "
+"coordinate. Corner # SW = 0, NW = 1, SE = 2, NE = 3, all corners = -1."
+msgstr ""
+"Gesegene Geländehöhen Ecke min max x y-Setzt die Geländetexturhöhen an der "
+"Ecke #corner zu min/max, wenn x oder y angegeben sind, wird es nur auf "
+"Regionen mit einer passenden Koordinate gesetzt. Geben Sie-1 in x oder y zu "
+"Wildcard, die koordinieren. Ecke # SW = 0, NW = 1, SE = 2, NE = 3, alle "
+"Ecken =-1."
+
+#: oswp-ConsoleCommand.php:178
+#, fuzzy
+msgid ""
+"set terrain texture number uuid x y - Sets the terrain number to uuid, if x "
+"or y are specified, it will only set it on regions with a matching "
+"coordinate. Specify -1 in x or y to wildcard that coordinate."
+msgstr ""
+"Setzen Sie die Geländetexturnummer uuuid x y-Setzt die Geländenummer auf "
+"uuid, wenn x oder y angegeben sind, wird sie nur auf Regionen mit einer "
+"passenden Koordinate gesetzt. Geben Sie-1 in x oder y zu Wildcard, die "
+"koordinieren."
+
+#: oswp-ConsoleCommand.php:179
+#, fuzzy
+msgid ""
+"set water height height x y - Sets the water height in meters.  If x and y "
+"are specified, it will only set it on regions with a matching coordinate. "
+"Specify -1 in x or y to wildcard that coordinate."
+msgstr ""
+"Einstellung Wasserhöhe x y-Setzt die Wasserhöhe in Metern.  Wenn x und y "
+"angegeben sind, wird es nur auf Regionen mit einer passenden Koordinate "
+"gesetzt. Geben Sie-1 in x oder y zu Wildcard, die koordinieren."
+
+#: oswp-ConsoleCommand.php:180
+#, fuzzy
+msgid ""
+"show animations first-name last-name - Show animation information for "
+"avatars in this simulator."
+msgstr ""
+"Zeigen Sie Animationen im Vornamen Vorname-Informationen zur Animation für "
+"Avatare in diesem Simulator anzeigen."
+
+#: oswp-ConsoleCommand.php:181
+#, fuzzy
+msgid "show appearance first-name last-name - Synonym for appearance show"
+msgstr "Show-Auftritt Vorname-Synonym für Optik"
+
+#: oswp-ConsoleCommand.php:182
+#, fuzzy
+msgid "show asset ID - Show asset information"
+msgstr "Asset-ID anzeigen-Informationen anzeigen"
+
+#: oswp-ConsoleCommand.php:183
+#, fuzzy
+msgid "show caps list - Shows list of registered capabilities for users."
+msgstr ""
+"Liste der Vernehmungen anzeigen-Zeigt die Liste der registrierten Funktionen "
+"für Benutzer."
+
+#: oswp-ConsoleCommand.php:184
+#, fuzzy
+msgid ""
+"show caps stats by cap cap-name - Shows statistics on capabilities use by "
+"capability."
+msgstr ""
+"Mützen-Statistiken nach Cap-Cap-Namen anzeigen-zeigt Statistiken über die "
+"Nutzung von Fähigkeiten an."
+
+#: oswp-ConsoleCommand.php:185
+#, fuzzy
+msgid ""
+"show caps stats by user first-name last-name - Shows statistics on "
+"capabilities use by user."
+msgstr ""
+"Zeigen Sie die Mützen-Statistiken mit dem Benutzernamen Nachname-zeigt "
+"Statistiken über die Funktionen, die der Benutzer nutzt."
+
+#: oswp-ConsoleCommand.php:186
+#, fuzzy
+msgid "show checks - Show checks configured for this server"
+msgstr ""
+"Schecks anzeigen-Schecks anzeigen, die für diesen Server konfiguriert sind"
+
+#: oswp-ConsoleCommand.php:187
+#, fuzzy
+msgid "show circuits - Show agent circuit data"
+msgstr "Schaltung von Schaltungen-Daten anzeigen, Agenten-Schaltkreise"
+
+#: oswp-ConsoleCommand.php:188
+#, fuzzy
+msgid "show connections - Show connection data"
+msgstr "Verbindungen anzeigen-Verbindungsdaten anzeigen"
+
+#: oswp-ConsoleCommand.php:189
+#, fuzzy
+msgid ""
+"show eq - Show contents of event queues for logged in avatars.  Used for "
+"debugging."
+msgstr ""
+"Show eq-Zeigen Sie Inhalte von Ereignisschlangen für eingeloggte Avatare.  "
+"Zum Debuggen verwendet."
+
+#: oswp-ConsoleCommand.php:190
+#, fuzzy
+msgid "show http-handlers - Show all registered http handlers"
+msgstr "Schaufenge-Handler-Alle registrierten http Handler anzeigen"
+
+#: oswp-ConsoleCommand.php:191
+#, fuzzy
+msgid "show hyperlinks - List the HG regions"
+msgstr "Hyperlinks anzeigen-Liste der HG-Regionen"
+
+#: oswp-ConsoleCommand.php:192
+#, fuzzy
+msgid ""
+"show image queues first-name last-name - Show the image queues textures "
+"downloaded via UDP for a particular client."
+msgstr "Zeigen Sie Bildschlangen im Vornamen des Vornamens."
+
+#: oswp-ConsoleCommand.php:193
+#, fuzzy
+msgid "show info - Show general information about the server"
+msgstr "Infos anzeigen-allgemeine Informationen über den Server anzeigen"
+
+#: oswp-ConsoleCommand.php:194
+#, fuzzy
+msgid "show modules - Show module data"
+msgstr "Module anzeigen-Moduldaten anzeigen"
+
+#: oswp-ConsoleCommand.php:195
+#, fuzzy
+msgid ""
+"show name uuid - Show the bindings between a single user UUID and a user name"
+msgstr ""
+"Showname uuid-Zeigen Sie die Bindungen zwischen einem einzelnen Benutzer "
+"UUID und einem Benutzernamen"
+
+#: oswp-ConsoleCommand.php:196
+#, fuzzy
+msgid "show names - Show the bindings between user UUIDs and user names"
+msgstr "Namen anzeigen-Die Bindungen zwischen UUIDs und Benutzernamen anzeigen"
+
+#: oswp-ConsoleCommand.php:197
+#, fuzzy
+msgid "show neighbours - Shows the local region neighbours"
+msgstr "Show-Nachbarn-Zeigt die Nachbarn der Region"
+
+#: oswp-ConsoleCommand.php:198
+#, fuzzy
+msgid ""
+"show object id --full UUID-or-localID - Show details of a scene object with "
+"the given UUID or localID"
+msgstr ""
+"Zeigen Sie Objekt ID--volle UUID-oder localID-Zeigen Sie Details eines "
+"Szenenobjekts mit der angegebenen UUID oder localID"
+
+#: oswp-ConsoleCommand.php:199
+#, fuzzy
+msgid ""
+"show object name --full --regex name - Show details of scene objects with "
+"the given name."
+msgstr ""
+"Objektname anzeigen--full--regex name-Zeigen Sie Details von Szenenobjekten "
+"mit dem angegebenen Namen."
+
+#: oswp-ConsoleCommand.php:200
+#, fuzzy
+msgid ""
+"show object owner --full OwnerID - Show details of scene objects with given "
+"owner."
+msgstr ""
+"Zeigen Sie Objektbesitzer--full OwnerID-Zeigen Sie Details von "
+"Szenenobjekten mit dem angegebenen Besitzer."
+
+#: oswp-ConsoleCommand.php:201
+#, fuzzy
+msgid ""
+"show object pos --full start x, start y , start z end x, end y, end z - Show "
+"details of scene objects within give volume"
+msgstr ""
+"Zeigen Sie Objekt pos--full start x, start y, start z end x, end y, end z-"
+"Zeigen Sie Details von Szenenobjekten innerhalb der Menge geben"
+
+#: oswp-ConsoleCommand.php:202
+#, fuzzy
+msgid ""
+"show part id UUID-or-localID - Show details of a scene object part with the "
+"given UUID or localID"
+msgstr ""
+"Zeigen Sie Teil ID UUID-oder localID-Zeigen Sie Details eines Szenenobjekts "
+"mit der angegebenen UUID oder localID"
+
+#: oswp-ConsoleCommand.php:203
+#, fuzzy
+msgid ""
+"show part name --regex name - Show details of scene object parts with the "
+"given name."
+msgstr ""
+"Zeigen Sie den Namen des Bauteils--regex-Zeigen Sie Details von "
+"Szenenobjektteilen mit dem angegebenen Namen."
+
+#: oswp-ConsoleCommand.php:204
+#, fuzzy
+msgid ""
+"show part pos start x, start y , start z end x, end y, end z - Show details "
+"of scene object parts within the given volume."
+msgstr ""
+"Zeigen Sie die Teilezeigen start x, start y, start z end x, end y, end z-"
+"Zeigen Sie Details der Szene-Objektteile innerhalb der angegebenen "
+"Lautstärke."
+
+#: oswp-ConsoleCommand.php:205
+#, fuzzy
+msgid ""
+"show pending-objects - Show # of objects on the pending queues of all scene "
+"viewers"
+msgstr ""
+"Zeigen Sie Pending-Objekte-Zeigen Sie # von Objekten auf den anstehenden "
+"Warteschlangen aller Szenenzuschauer"
+
+#: oswp-ConsoleCommand.php:206
+#, fuzzy
+msgid "show pqueues full - Show priority queue data for each client"
+msgstr ""
+"Pqueues voll anzeigen-Prioritäts-Warteschlangen-Daten für jeden Client "
+"anzeigen"
+
+#: oswp-ConsoleCommand.php:207
+#, fuzzy
+msgid "show queues full - Show queue data for each client"
+msgstr ""
+"Warteschlangen voll anzeigen-Warteschlangen-Daten für jeden Client anzeigen"
+
+#: oswp-ConsoleCommand.php:208
+#, fuzzy
+msgid "show ratings - Show rating data"
+msgstr "Bewertungen anzeigen-Bewertungsdaten anzeigen"
+
+#: oswp-ConsoleCommand.php:209
+#, fuzzy
+msgid ""
+"show region - Show control information for the currently selected region "
+"host name, max physical prim size, etc."
+msgstr ""
+"Show-Region-Zeigen Sie Kontrollinformationen für den aktuell ausgewählten "
+"Region-Hostnamen, maximale physikalische Primgröße, etc."
+
+#: oswp-ConsoleCommand.php:210
+#, fuzzy
+msgid "show regions - Show region data"
+msgstr "Regionen anzeigen-Daten aus der Region anzeigen"
+
+#: oswp-ConsoleCommand.php:211
+#, fuzzy
+msgid "show regionsinview - Shows regions that can be seen from a region"
+msgstr "Regionalansicht-Zeigt Regionen, die aus einer Region zu sehen sind"
+
+#: oswp-ConsoleCommand.php:212
+#, fuzzy
+msgid ""
+"show scene - Show live information for the currently selected scene fps, "
+"prims, etc."
+msgstr ""
+"Show-Szene-Live-Informationen für die aktuell ausgewählte Szene fps, Prims, "
+"etc. anzeigen."
+
+#: oswp-ConsoleCommand.php:213
+#, fuzzy
+msgid "show script sensors - Show script sensors information"
+msgstr "Skript-Sensoren anzeigen-Informationen anzeigen"
+
+#: oswp-ConsoleCommand.php:214
+#, fuzzy
+msgid "show script timers - Show script sensors information"
+msgstr "Skripttimer anzeigen-Informationen zur Skriptsensoren anzeigen"
+
+#: oswp-ConsoleCommand.php:215
+#, fuzzy
+msgid "show scripts script-item-uuid+ - Show script information"
+msgstr "Skripte Skripte script-item-uuid +-Skriptinformationen anzeigen"
+
+#: oswp-ConsoleCommand.php:216
+#, fuzzy
+msgid ""
+"show stats - show useful statistical information for this server. See Frame "
+"Statistics Values below for more information."
+msgstr ""
+"Zeigen Sie Statistiken an-zeigen Sie nützliche statistische Informationen "
+"für diesen Server an. Weitere Informationen finden Sie unter Frame "
+"Statistics Values."
+
+#: oswp-ConsoleCommand.php:217
+#, fuzzy
+msgid ""
+"show threadpool calls complete - Show details about threadpool calls that "
+"have been completed."
+msgstr ""
+"Threadpool-Anrufe komplett anzeigen-Details über Threadpool-Anrufe anzeigen, "
+"die abgeschlossen wurden."
+
+#: oswp-ConsoleCommand.php:218
+#, fuzzy
+msgid "show threads - Show thread status"
+msgstr "Threads anzeigen-Thread-Status anzeigen"
+
+#: oswp-ConsoleCommand.php:219
+#, fuzzy
+msgid ""
+"show throttles full - Show throttle settings for each client and for the "
+"server overall"
+msgstr ""
+"Drosselungen voll anzeigen-Drosselklappe für jeden Client und für den Server "
+"insgesamt anzeigen"
+
+#: oswp-ConsoleCommand.php:220
+#, fuzzy
+msgid "show uptime - Show server uptime"
+msgstr "Show-Uptime-Show-Server-Uptime"
+
+#: oswp-ConsoleCommand.php:221
+#, fuzzy
+msgid "show users full - Show user data for users currently on the region"
+msgstr ""
+"Nutzer voll anzeigen-Nutzerdaten für Nutzer anzeigen, die sich derzeit in "
+"der Region aufhalten"
+
+#: oswp-ConsoleCommand.php:222
+#, fuzzy
+msgid "show version - Show server version"
+msgstr "Showversion-Server-Version anzeigen"
+
+#: oswp-ConsoleCommand.php:223
+#, fuzzy
+msgid "shutdown - Quit the application"
+msgstr "Abschaltung-Die Anwendung beenden"
+
+#: oswp-ConsoleCommand.php:224
+#, fuzzy
+msgid ""
+"sit user name --regex first-name last-name - Sit the named user on an "
+"unoccupied object with a sit target."
+msgstr ""
+"Setzen Sie sich auf den Benutzernamen--regex Nachname des Nachnamens-Sit den "
+"benannten Benutzer auf ein unbesetztes Objekt mit einem Sit-Ziel."
+
+#: oswp-ConsoleCommand.php:225
+#, fuzzy
+msgid "stand user name --regex first-name last-name - Stand the named user."
+msgstr ""
+"Stand-Benutzername--regex Nachname Nachname-Stand den genannten Benutzer."
+
+#: oswp-ConsoleCommand.php:226
+#, fuzzy
+msgid ""
+"stats record start|stop - Control whether stats are being regularly recorded "
+"to a separate file."
+msgstr ""
+"Statistik Record start | stop-Control whether stats werden regelmäßig in "
+"einer separaten Datei aufgezeichnet."
+
+#: oswp-ConsoleCommand.php:227
+#, fuzzy
+msgid ""
+"stats save path - Save stats snapshot to a file.  If the file already "
+"exists, then the report is appended."
+msgstr ""
+"Statistiken speichern Pfad-Speichern Sie die Größe des Schnappschusses in "
+"eine Datei.  Wenn die Datei bereits existiert, wird der Bericht angehängt."
+
+#: oswp-ConsoleCommand.php:228
+#, fuzzy
+msgid ""
+"stats show - a synonym for show stats - Show statistical information for "
+"this server"
+msgstr ""
+"Statistik-Show-ein Synonym für Show-Statistiken-statistische Informationen "
+"für diesen Server anzeigen"
+
+#: oswp-ConsoleCommand.php:229
+#, fuzzy
+msgid "sun current_time value - time in seconds of the simulator"
+msgstr "Sonnenstrom _ Zeitwert-Zeit in Sekunden des Simulators"
+
+#: oswp-ConsoleCommand.php:230
+#, fuzzy
+msgid "sun day_length value - number of hours to a day"
+msgstr "Sonnentag _ Länge-Wert-Anzahl der Stunden bis zum Tag"
+
+#: oswp-ConsoleCommand.php:231
+#, fuzzy
+msgid "sun day_night_offset value - induces a horizon shift"
+msgstr "Sonnentag _ Nacht _ Offset-Wert-induziert eine Horizontverschiebung"
+
+#: oswp-ConsoleCommand.php:232
+#, fuzzy
+msgid ""
+"sun day_time_sun_hour_scale value - scales day light vs nite hours to change "
+"day/night ratio"
+msgstr ""
+"Sonnentag _ Zeit _ sun _ hour _ scale Wert-Waage Tageslicht vs nite Stunden, "
+"um das Tages-/Nacht-Verhältnis zu ändern"
+
+#: oswp-ConsoleCommand.php:233
+#, fuzzy
+msgid "sun help - list parameters that can be changed"
+msgstr "Sonnenhilfe-Listenparameter, die geändert werden können"
+
+#: oswp-ConsoleCommand.php:234
+#, fuzzy
+msgid "sun list - list parameters that can be changed"
+msgstr "Sonnenliste-Listenparameter, die geändert werden können"
+
+#: oswp-ConsoleCommand.php:235
+#, fuzzy
+msgid ""
+"sun update_interval value - how often to update the suns position in frames"
+msgstr ""
+"Sonnenupdate _ Intervall-Wert-wie oft die Sonnen Position in Frames "
+"aktualisieren"
+
+#: oswp-ConsoleCommand.php:236
+#, fuzzy
+msgid "sun year_length value - number of days to a year"
+msgstr "Sonnenjahr _ Länge-Wert-Anzahl der Tage bis zum Jahr"
+
+#: oswp-ConsoleCommand.php:237
+#, fuzzy
+msgid ""
+"teleport user first-name last-name destination - Teleport a user in this "
+"simulator to the given destination"
+msgstr ""
+"Teleport-Benutzer Vorname im Vornamen-Teleport ein Benutzer in diesem "
+"Simulator zum angegebenen Ziel"
+
+#: oswp-ConsoleCommand.php:238
+#, fuzzy
+msgid "terrain bake - Saves the current terrain into the regions baked map."
+msgstr ""
+"Geländebacken-Saves das aktuelle Gelände in die von Regionen gebrannte Karte."
+
+#: oswp-ConsoleCommand.php:239
+#, fuzzy
+msgid "terrain effect - Runs a specified plugin effect."
+msgstr "Geländeeffekt-Läuft einen bestimmten Plug-In-Effekt."
+
+#: oswp-ConsoleCommand.php:240
+#, fuzzy
+msgid "terrain elevate - Raises the current heightmap by the specified amount."
+msgstr ""
+"Gelände erhöht-erhöht die aktuelle Höhenkarte um den angegebenen Betrag."
+
+#: oswp-ConsoleCommand.php:241
+#, fuzzy
+msgid "terrain fill - Fills the current heightmap with a specified value."
+msgstr ""
+"Geländefüllung-Füllen Sie die aktuelle Höhenkarte mit einem angegebenen Wert "
+"aus."
+
+#: oswp-ConsoleCommand.php:242
+#, fuzzy
+msgid "terrain flip - Flips the current terrain about the X or Y axis."
+msgstr "Geländeumdrehungen-Flips das aktuelle Gelände um die X oder Y-Achse."
+
+#: oswp-ConsoleCommand.php:243
+#, fuzzy
+msgid "terrain load - Loads a terrain from a specified file."
+msgstr "Geländelast-lädt ein Gelände aus einer bestimmten Datei."
+
+#: oswp-ConsoleCommand.php:244
+#, fuzzy
+msgid "terrain load-tile - Loads a terrain from a section of a larger file."
+msgstr ""
+"Gelände Blei-Fliesen-lädt ein Gelände aus einem Abschnitt einer größeren "
+"Datei."
+
+#: oswp-ConsoleCommand.php:245
+#, fuzzy
+msgid "terrain lower - Lowers the current heightmap by the specified amount."
+msgstr ""
+"Gelände tiefer-Verkleinert die aktuelle Höhenkarte um den angegebenen Betrag."
+
+#: oswp-ConsoleCommand.php:246
+#, fuzzy
+msgid "terrain max - Sets the maximum terrain height to the specified value."
+msgstr "Gelände max-Setzt die maximale Geländehöhe auf den angegebenen Wert."
+
+#: oswp-ConsoleCommand.php:247
+#, fuzzy
+msgid "terrain min - Sets the minimum terrain height to the specified value."
+msgstr "Gelände min-Setzt die minimale Geländehöhe auf den angegebenen Wert."
+
+#: oswp-ConsoleCommand.php:248
+#, fuzzy
+msgid ""
+"terrain modify operation value area taper - Modifies the terrain as "
+"instructed."
+msgstr ""
+"Geländemodifizierung Betriebswert-Verjüngung-Modifiziert das Gelände wie "
+"angegeben."
+
+#: oswp-ConsoleCommand.php:249
+#, fuzzy
+msgid "terrain multiply - Multiplies the heightmap by the value specified."
+msgstr ""
+"Das Gelände multipliziert sich-Multipliziert die Höhenkarte mit dem "
+"angegebenen Wert."
+
+#: oswp-ConsoleCommand.php:250
+#, fuzzy
+msgid ""
+"terrain newbrushes - Enables experimental brushes which replace the standard "
+"terrain brushes."
+msgstr ""
+"Geländeneubürsten-Ermöglicht experimentelle Bürsten, die die Standard-"
+"Geländebürsten ersetzen."
+
+#: oswp-ConsoleCommand.php:251
+#, fuzzy
+msgid ""
+"terrain rescale - Rescales the current terrain to fit between the given min "
+"and max heights."
+msgstr ""
+"Geländeverkauf-Rettet das aktuelle Gelände, das zwischen den angegebenen Min-"
+"und Maximalhöhen passt."
+
+#: oswp-ConsoleCommand.php:252
+#, fuzzy
+msgid ""
+"terrain revert - Loads the baked map terrain into the regions heightmap."
+msgstr ""
+"Gelände rückgängig machen-lädt das gebackene Kartengelände in die Region "
+"Höhenkarte."
+
+#: oswp-ConsoleCommand.php:253
+#, fuzzy
+msgid "terrain save - Saves the current heightmap to a specified file."
+msgstr ""
+"Gelände speichern-Speichert die aktuelle Höhenkarte in eine bestimmte Datei."
+
+#: oswp-ConsoleCommand.php:254
+#, fuzzy
+msgid "terrain save-tile - Saves the current heightmap to the larger file."
+msgstr "Geländesparte-Speichert die aktuelle Höhenkarte in die größere Datei."
+
+#: oswp-ConsoleCommand.php:255
+#, fuzzy
+msgid "terrain show - Shows terrain height at a given co-ordinate."
+msgstr "Geländeschau-Shows Gelände Höhe bei einer vorgegebenen Koordinatorin."
+
+#: oswp-ConsoleCommand.php:256
+#, fuzzy
+msgid ""
+"terrain stats - Shows some information about the regions heightmap for "
+"debugging purposes."
+msgstr ""
+"Geländestatistiken-Zeigt einige Informationen über die Höhenkarte der "
+"Regionen für Debugging-Zwecke."
+
+#: oswp-ConsoleCommand.php:257
+#, fuzzy
+msgid ""
+"threads abort thread-id - Abort a managed thread.  Use show threads to find "
+"possible threads."
+msgstr ""
+"Threads abbrechen Thread-id-Abort ein verwalteter Thread.  Verwenden Sie "
+"Show-Threads, um mögliche Threads zu finden."
+
+#: oswp-ConsoleCommand.php:258
+#, fuzzy
+msgid "threads show - Show thread status.  Synonym for show threads"
+msgstr "Threads zeigen-Thread-Status anzeigen.  Synonym für Show-Threads"
+
+#: oswp-ConsoleCommand.php:259
+#, fuzzy
+msgid ""
+"translate scene xOffset yOffset zOffset - translates the scene objects "
+"please back up your region before using"
+msgstr ""
+"Szene-xOffset yOffset zOffset-übersetzt die Szene-Objekte bitte sichern Sie "
+"Ihre Region vor der Verwendung"
+
+#: oswp-ConsoleCommand.php:260
+#, fuzzy
+msgid "tree active - Change activity state for the trees module."
+msgstr "Baum aktiv-Änderung des Aktivitätszustandes für das Baummodul."
+
+#: oswp-ConsoleCommand.php:261
+#, fuzzy
+msgid "tree freeze - Freeze/Unfreeze activity for a defined copse."
+msgstr "Baumstopp-Freeze/Unfriere-Aktivität für ein definiertes Kopsen."
+
+#: oswp-ConsoleCommand.php:262
+#, fuzzy
+msgid "tree load - Load a copse definition from an xml file."
+msgstr "Baumlast-Laden Sie eine Kopse-Definition aus einer xml-Datei."
+
+#: oswp-ConsoleCommand.php:263
+#, fuzzy
+msgid "tree plant - Start the planting on a copse."
+msgstr "Baumpflanze-Die Bepflanzung auf einer Kopse starten."
+
+#: oswp-ConsoleCommand.php:264
+#, fuzzy
+msgid "tree rate - Reset the tree update rate mSec."
+msgstr "Baumrate-Reset die Baum-Update-Rate mSec."
+
+#: oswp-ConsoleCommand.php:265
+#, fuzzy
+msgid "tree reload - Reload copse definitions from the in-scene trees."
+msgstr ""
+"Baumnachladen-Reload-Kopieren-Definitionen von den Bäumen in Szene gesetzt."
+
+#: oswp-ConsoleCommand.php:266
+#, fuzzy
+msgid "tree remove - Remove a copse definition and all its in-scene trees."
+msgstr ""
+"Baumentfernung-Entfernen Sie eine Kopse-Definition und alle seine in-Szene-"
+"Bäume."
+
+#: oswp-ConsoleCommand.php:267
+#, fuzzy
+msgid "tree statistics - Log statistics about the trees."
+msgstr "Baumstatistik-Protokollstatistik über die Bäume."
+
+#: oswp-ConsoleCommand.php:268
+#, fuzzy
+msgid "unlink-region local name - Unlink a hypergrid region"
+msgstr "Ortsnamen unklopp-region-Unlink eine Hypergrid-Region"
+
+#: oswp-ConsoleCommand.php:269
+#, fuzzy
+msgid "vivox debug on|off - Set vivox debugging"
+msgstr "Vivox debug on | off-Set vivox debugging"
+
+#: oswp-ConsoleCommand.php:270
+#, fuzzy
+msgid ""
+"wearables check first-name last-name - Check that the wearables of a given "
+"avatar in the scene are valid."
+msgstr ""
+"Wearables überprüfen den Vornamen des Vornamens Vorname-Prüfen Sie, ob die "
+"Wearables eines bestimmten Avatars in der Szene gültig sind."
+
+#: oswp-ConsoleCommand.php:271
+#, fuzzy
+msgid ""
+"wearables show first-name last-name - Show information about wearables for "
+"avatars."
+msgstr ""
+"Wearables zeigen den Vornamen im Vornamen-Informationen über Wearables für "
+"Avatare anzeigen."
+
+#: oswp-ConsoleCommand.php:272
+#, fuzzy
+msgid "wind base wind_update_rate value - Get or set the wind update rate."
+msgstr "Wind base wind _ update _ rate value-Get or set the wind update rate."
+
+#: oswp-ConsoleCommand.php:273
+#, fuzzy
+msgid ""
+"wind ConfigurableWind avgDirection value - average wind direction in degrees"
+msgstr ""
+"Wind-ConfigurableWind avgDirection Wert-Durchschnittswindrichtung in Grad"
+
+#: oswp-ConsoleCommand.php:274
+#, fuzzy
+msgid "wind ConfigurableWind avgStrength value - average wind strength"
+msgstr "Wind ConfigurableWind avgStrength Wert-durchschnittliche Windstärke"
+
+#: oswp-ConsoleCommand.php:275
+#, fuzzy
+msgid "wind ConfigurableWind rateChange value - rate of change"
+msgstr "Wind ConfigurableWind Rate Change Value-Rate der Änderung"
+
+#: oswp-ConsoleCommand.php:276
+#, fuzzy
+msgid ""
+"wind ConfigurableWind varDirection value - allowable variance in wind "
+"direction in +/- degrees"
+msgstr ""
+"Wind-ConfigurableWindenergiewert-zulässige Abweichungen in Windrichtung in "
+"+/-Grad"
+
+#: oswp-ConsoleCommand.php:277
+#, fuzzy
+msgid ""
+"wind ConfigurableWind varStrength value - allowable variance in wind strength"
+msgstr "Windschutzwert"
+
+#: oswp-ConsoleCommand.php:278
+#, fuzzy
+msgid "wind SimpleRandomWind strength value - wind strength"
+msgstr "Wind SimpleRandomWind Kraftwert-Windstärke"
+
+#: oswp-ConsoleCommand.php:279
+#, fuzzy
+msgid "windlight disable - Disable the windlight plugin."
+msgstr "Windlicht deaktivieren-Deaktivieren Sie das Windlicht-Plugin."
+
+#: oswp-ConsoleCommand.php:280
+#, fuzzy
+msgid "windlight enable - Enable the windlight plugin."
+msgstr "Windleuchte aktivieren-Aktivieren Sie das Windlicht-Plugin."
+
+#: oswp-ConsoleCommand.php:281
+#, fuzzy
+msgid ""
+"windlight load - Load windlight profile from the database and broadcast."
+msgstr ""
+"Windlichtbelastung-Windlichtprofil aus der Datenbank und Sendung laden."
+
+#: oswp-ConsoleCommand.php:282
+#, fuzzy
+msgid "xengine status - Show status information"
+msgstr "xengine Status-Statusinformationen anzeigen"

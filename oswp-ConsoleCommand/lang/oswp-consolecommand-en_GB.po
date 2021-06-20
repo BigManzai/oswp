@@ -1,0 +1,1221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oswp-consolecommand\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-02 10:09+0000\n"
+"PO-Revision-Date: 2019-04-02 12:29+0200\n"
+"Last-Translator: Manfred Aabye <openmanniland@gmx.de>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1\n"
+
+#: oswp-ConsoleCommand.php:73
+msgid "alert - Send an alert to everyone"
+msgstr "alert - Send an alert to everyone"
+
+#: oswp-ConsoleCommand.php:74
+msgid "alert-user firstname lastname message - Send an alert to a user"
+msgstr "alert-user firstname lastname message - Send an alert to a user"
+
+#: oswp-ConsoleCommand.php:75
+msgid ""
+"appearance find uuid-or-start-of-uuid - Find out which avatar uses the given "
+"asset as a baked texture, if any."
+msgstr ""
+"appearance find uuid-or-start-of-uuid - Find out which avatar uses the given "
+"asset as a baked texture, if any."
+
+#: oswp-ConsoleCommand.php:76
+msgid ""
+"appearance rebake first-name last-name - Send a request to the users viewer "
+"for it to rebake and reupload its appearance textures."
+msgstr ""
+"appearance rebake first-name last-name - Send a request to the users viewer "
+"for it to rebake and reupload its appearance textures."
+
+#: oswp-ConsoleCommand.php:77
+msgid ""
+"appearance send first-name last-name - Send appearance data for each avatar "
+"in the simulator to other viewers."
+msgstr ""
+"appearance send first-name last-name - Send appearance data for each avatar "
+"in the simulator to other viewers."
+
+#: oswp-ConsoleCommand.php:78
+msgid ""
+"appearance show first-name last-name - Show appearance information for "
+"avatars."
+msgstr ""
+"appearance show first-name last-name - Show appearance information for "
+"avatars."
+
+#: oswp-ConsoleCommand.php:79
+msgid ""
+"attachments show first-name last-name - Show attachment information for "
+"avatars in this simulator."
+msgstr ""
+"attachments show first-name last-name - Show attachment information for "
+"avatars in this simulator."
+
+#: oswp-ConsoleCommand.php:80
+msgid ""
+"backup - Persist currently unsaved object changes immediately instead of "
+"waiting for the normal persistence call."
+msgstr ""
+"backup - Persist currently unsaved object changes immediately instead of "
+"waiting for the normal persistence call."
+
+#: oswp-ConsoleCommand.php:81
+msgid "bypass permissions true / false - Bypass permission checks"
+msgstr "bypass permissions true / false - Bypass permission checks"
+
+#: oswp-ConsoleCommand.php:82
+msgid "change region region name - Change current console region"
+msgstr "change region region name - Change current console region"
+
+#: oswp-ConsoleCommand.php:83
+msgid ""
+"clear image queues first-name last-name - Clear the image queues textures "
+"downloaded via UDP for a particular client."
+msgstr ""
+"clear image queues first-name last-name - Clear the image queues textures "
+"downloaded via UDP for a particular client."
+
+#: oswp-ConsoleCommand.php:84
+msgid "command-script script - Run a command script from file"
+msgstr "command-script script - Run a command script from file"
+
+#: oswp-ConsoleCommand.php:85
+msgid "config get section key - Synonym for config show"
+msgstr "config get section key - Synonym for config show"
+
+#: oswp-ConsoleCommand.php:86
+msgid ""
+"config save path - Save current configuration to a file at the given path"
+msgstr ""
+"config save path - Save current configuration to a file at the given path"
+
+#: oswp-ConsoleCommand.php:87
+msgid ""
+"config set section key value - Set a config option.  In most cases this is "
+"not useful since changed parameters are not dynamically reloaded.  Neither "
+"do changed parameters persist - you will have to change a config file "
+"manually and restart."
+msgstr ""
+"config set section key value - Set a config option.  In most cases this is "
+"not useful since changed parameters are not dynamically reloaded.  Neither "
+"do changed parameters persist - you will have to change a config file "
+"manually and restart."
+
+#: oswp-ConsoleCommand.php:88
+msgid "config show section key - Show config information"
+msgstr "config show section key - Show config information"
+
+#: oswp-ConsoleCommand.php:89
+msgid "create region region name region_file.ini - Create a new region."
+msgstr "create region region name region_file.ini - Create a new region."
+
+#: oswp-ConsoleCommand.php:90
+msgid "debug attachments log 0|1 - Turn on attachments debug logging"
+msgstr "debug attachments log 0|1 - Turn on attachments debug logging"
+
+#: oswp-ConsoleCommand.php:91
+msgid "debug attachments status - Show current attachments debug status"
+msgstr "debug attachments status - Show current attachments debug status"
+
+#: oswp-ConsoleCommand.php:92
+msgid ""
+"debug eq 0|1|2 - Turn on event queue debugging = 0 - turns off all event "
+"queue logging = 1 - turns on event queue setup and outgoing event logging = "
+"2 - turns on poll notification"
+msgstr ""
+"debug eq 0|1|2 - Turn on event queue debugging = 0 - turns off all event "
+"queue logging = 1 - turns on event queue setup and outgoing event logging = "
+"2 - turns on poll notification"
+
+#: oswp-ConsoleCommand.php:93
+msgid ""
+"debug groups messaging verbose true|false - This setting turns on very "
+"verbose groups messaging debugging"
+msgstr ""
+"debug groups messaging verbose true|false - This setting turns on very "
+"verbose groups messaging debugging"
+
+#: oswp-ConsoleCommand.php:94
+msgid ""
+"debug groups verbose true|false - This setting turns on very verbose groups "
+"debugging"
+msgstr ""
+"debug groups verbose true|false - This setting turns on very verbose groups "
+"debugging"
+
+#: oswp-ConsoleCommand.php:95
+msgid "debug http in|out|all level - Turn on http request logging."
+msgstr "debug http in|out|all level - Turn on http request logging."
+
+#: oswp-ConsoleCommand.php:96
+msgid ""
+"debug jobengine start|stop|status|log - Start, stop, get status or set "
+"logging level of the job engine."
+msgstr ""
+"debug jobengine start|stop|status|log - Start, stop, get status or set "
+"logging level of the job engine."
+
+#: oswp-ConsoleCommand.php:97
+msgid "debug permissions true / false - Turn on permissions debugging"
+msgstr "debug permissions true / false - Turn on permissions debugging"
+
+#: oswp-ConsoleCommand.php:98
+msgid "debug scene get - List current scene options."
+msgstr "debug scene get - List current scene options."
+
+#: oswp-ConsoleCommand.php:99
+msgid "debug scene set param value - Turn on scene debugging options."
+msgstr "debug scene set param value - Turn on scene debugging options."
+
+#: oswp-ConsoleCommand.php:100
+msgid ""
+"debug scripts log item-id log-level - Extra debug logging for a particular "
+"script."
+msgstr ""
+"debug scripts log item-id log-level - Extra debug logging for a particular "
+"script."
+
+#: oswp-ConsoleCommand.php:101
+msgid ""
+"debug threadpool level 0..3 - Turn on logging of activity in the main thread "
+"pool."
+msgstr ""
+"debug threadpool level 0..3 - Turn on logging of activity in the main thread "
+"pool."
+
+#: oswp-ConsoleCommand.php:102
+msgid ""
+"debug threadpool set worker|iocp min|max n - Set threadpool parameters.  For "
+"debug purposes."
+msgstr ""
+"debug threadpool set worker|iocp min|max n - Set threadpool parameters.  For "
+"debug purposes."
+
+#: oswp-ConsoleCommand.php:103
+msgid "debug threadpool status - Show current debug threadpool parameters."
+msgstr "debug threadpool status - Show current debug threadpool parameters."
+
+#: oswp-ConsoleCommand.php:104
+msgid "debug xengine log level - Turn on detailed xengine debugging."
+msgstr "debug xengine log level - Turn on detailed xengine debugging."
+
+#: oswp-ConsoleCommand.php:105
+msgid "delete object creator UUID - Delete scene objects by creator"
+msgstr "delete object creator UUID - Delete scene objects by creator"
+
+#: oswp-ConsoleCommand.php:106
+msgid ""
+"delete object id UUID-or-localID - Delete a scene object by uuid or localID"
+msgstr ""
+"delete object id UUID-or-localID - Delete a scene object by uuid or localID"
+
+#: oswp-ConsoleCommand.php:107
+msgid "delete object name --regex name - Delete a scene object by name."
+msgstr "delete object name --regex name - Delete a scene object by name."
+
+#: oswp-ConsoleCommand.php:108
+msgid ""
+"delete object outside - Löscht alle Szenenobjekte außerhalb der "
+"Regionsgrenzen"
+msgstr ""
+"delete object outside - Löscht alle Szenenobjekte außerhalb der "
+"Regionsgrenzen"
+
+#: oswp-ConsoleCommand.php:109
+msgid "delete object owner UUID - Delete scene objects by owner"
+msgstr "delete object owner UUID - Delete scene objects by owner"
+
+#: oswp-ConsoleCommand.php:110
+msgid ""
+"delete object pos start x, start y , start z end x, end y, end z - Delete "
+"scene objects within the given volume."
+msgstr ""
+"delete object pos start x, start y , start z end x, end y, end z - Delete "
+"scene objects within the given volume."
+
+#: oswp-ConsoleCommand.php:111
+msgid "delete-region name - Delete a region from disk"
+msgstr "delete-region name - Delete a region from disk"
+
+#: oswp-ConsoleCommand.php:112
+msgid "dump asset id - Dump an asset"
+msgstr "dump asset id - Dump an asset"
+
+#: oswp-ConsoleCommand.php:113
+msgid ""
+"dump object id UUID-or-localID - Dump the formatted serialization of the "
+"given object to the file UUID.xml"
+msgstr ""
+"dump object id UUID-or-localID - Dump the formatted serialization of the "
+"given object to the file UUID.xml"
+
+#: oswp-ConsoleCommand.php:114
+msgid "edit scale name x y z - Change the scale of a named prim"
+msgstr "edit scale name x y z - Change the scale of a named prim"
+
+#: oswp-ConsoleCommand.php:283
+msgid "End of Commands"
+msgstr "End of Commands"
+
+#: oswp-ConsoleCommand.php:115
+msgid ""
+"estate create owner UUID estate name - Creates a new estate with the "
+"specified name, owned by the specified user. Estate name must be unique."
+msgstr ""
+"estate create owner UUID estate name - Creates a new estate with the "
+"specified name, owned by the specified user. Estate name must be unique."
+
+#: oswp-ConsoleCommand.php:116
+msgid ""
+"estate link region estate ID region ID - Attaches the specified region to "
+"the specified estate."
+msgstr ""
+"estate link region estate ID region ID - Attaches the specified region to "
+"the specified estate."
+
+#: oswp-ConsoleCommand.php:117
+msgid ""
+"estate set name estate-id new name - Sets the name of the specified estate "
+"to the specified value. New name must be unique."
+msgstr ""
+"estate set name estate-id new name - Sets the name of the specified estate "
+"to the specified value. New name must be unique."
+
+#: oswp-ConsoleCommand.php:118
+msgid ""
+"estate set owner estate-id UUID | Firstname Lastname  - Sets the owner of "
+"the specified estate to the specified UUID or user."
+msgstr ""
+"estate set owner estate-id UUID | Firstname Lastname  - Sets the owner of "
+"the specified estate to the specified UUID or user."
+
+#: oswp-ConsoleCommand.php:119
+msgid "estate show - Shows all estates on the simulator."
+msgstr "estate show - Shows all estates on the simulator."
+
+#: oswp-ConsoleCommand.php:120
+msgid "export-map path - Save an image of the world map"
+msgstr "export-map path - Save an image of the world map"
+
+#: oswp-ConsoleCommand.php:121
+msgid ""
+"fcache assets - Attempt a deep scan and cache of all assets in all scenes"
+msgstr ""
+"fcache assets - Attempt a deep scan and cache of all assets in all scenes"
+
+#: oswp-ConsoleCommand.php:122
+msgid ""
+"fcache clear file memory - Remove all assets in the cache.  If file or "
+"memory is specified then only this cache is cleared."
+msgstr ""
+"fcache clear file memory - Remove all assets in the cache.  If file or "
+"memory is specified then only this cache is cleared."
+
+#: oswp-ConsoleCommand.php:123
+msgid ""
+"fcache expire datetime - Purge cached assets older then the specified date/"
+"time"
+msgstr ""
+"fcache expire datetime - Purge cached assets older then the specified date/"
+"time"
+
+#: oswp-ConsoleCommand.php:124
+msgid "fcache status - Display cache status"
+msgstr "fcache status - Display cache status"
+
+#: oswp-ConsoleCommand.php:125
+msgid ""
+"force gc - Manually invoke runtime garbage collection.  For debugging "
+"purposes"
+msgstr ""
+"force gc - Manually invoke runtime garbage collection.  For debugging "
+"purposes"
+
+#: oswp-ConsoleCommand.php:126
+msgid "force permissions true / false - Force permissions on or off"
+msgstr "force permissions true / false - Force permissions on or off"
+
+#: oswp-ConsoleCommand.php:127
+msgid "force update - Force the update of all objects on clients"
+msgstr "force update - Force the update of all objects on clients"
+
+#: oswp-ConsoleCommand.php:128
+msgid ""
+"friends show --cache first-name last-name - Show the friends for the given "
+"user if they exist."
+msgstr ""
+"friends show --cache first-name last-name - Show the friends for the given "
+"user if they exist."
+
+#: oswp-ConsoleCommand.php:129
+msgid "generate map - Generates and stores a new maptile."
+msgstr "generate map - Generates and stores a new maptile."
+
+#: oswp-ConsoleCommand.php:130
+msgid "get log level - Get the current console logging level"
+msgstr "get log level - Get the current console logging level"
+
+#: oswp-ConsoleCommand.php:131
+msgid ""
+"help item - Display help on a particular command or on a list of commands in "
+"a category"
+msgstr ""
+"help item - Display help on a particular command or on a list of commands in "
+"a category"
+
+#: oswp-ConsoleCommand.php:132 oswp-ConsoleCommand.php:133
+msgid "help Terrain - Get help on plugin command terrain"
+msgstr "help Terrain - Get help on plugin command terrain"
+
+#: oswp-ConsoleCommand.php:134 oswp-ConsoleCommand.php:135
+msgid "help Tree - Get help on plugin command tree"
+msgstr "help Tree - Get help on plugin command tree"
+
+#: oswp-ConsoleCommand.php:136 oswp-ConsoleCommand.php:137
+msgid "help Windlight - Get help on plugin command windlight"
+msgstr "help Windlight - Get help on plugin command windlight"
+
+#. Author URI of the plugin
+msgid "http://openmanniland.de"
+msgstr "http://openmanniland.de"
+
+#. URI of the plugin
+msgid "https://github.com/BigManzai/oswp-consolecommand"
+msgstr "https://github.com/BigManzai/oswp-consolecommand"
+
+#: oswp-ConsoleCommand.php:138
+msgid "j2k decode ID - Do JPEG2000 decoding of an asset."
+msgstr "j2k decode ID - Do JPEG2000 decoding of an asset."
+
+#: oswp-ConsoleCommand.php:139
+msgid "kick user first last --force message - Kick a user off the simulator"
+msgstr "kick user first last --force message - Kick a user off the simulator"
+
+#: oswp-ConsoleCommand.php:140
+msgid "land clear - Clear all the parcels from the region."
+msgstr "land clear - Clear all the parcels from the region."
+
+#: oswp-ConsoleCommand.php:141
+msgid ""
+"land show local-land-id - Show information about the parcels on the region."
+msgstr ""
+"land show local-land-id - Show information about the parcels on the region."
+
+#: oswp-ConsoleCommand.php:142
+msgid "link-mapping x y - Set local coordinate to map HG regions to"
+msgstr "link-mapping x y - Set local coordinate to map HG regions to"
+
+#: oswp-ConsoleCommand.php:143
+msgid ""
+"link-region Xloc Yloc ServerURI RemoteRegionName - Link a HyperGrid Region. "
+"Examples for ServerURI: http://grid.net:8002/ or http://example.org/path/foo."
+"php"
+msgstr ""
+"link-region Xloc Yloc ServerURI RemoteRegionName - Link a HyperGrid Region. "
+"Examples for ServerURI: http://grid.net:8002/ or http://example.org/path/foo."
+"php"
+
+#: oswp-ConsoleCommand.php:144
+msgid ""
+"load iar -m|--merge first last inventory path password IAR path - Load user "
+"inventory archive IAR."
+msgstr ""
+"load iar -m|--merge first last inventory path password IAR path - Load user "
+"inventory archive IAR."
+
+#: oswp-ConsoleCommand.php:145
+msgid ""
+"load oar -m|--merge -s|--skip-assets --default-user User Name --force-"
+"terrain --force-parcels --no-objects --rotation degrees --bounding-origin x,"
+"y,z --bounding-size x,y,z --displacement x,y,z -d|--debug OAR path - Load a "
+"regions data from an OAR archive."
+msgstr ""
+"load oar -m|--merge -s|--skip-assets --default-user User Name --force-"
+"terrain --force-parcels --no-objects --rotation degrees --bounding-origin x,"
+"y,z --bounding-size x,y,z --displacement x,y,z -d|--debug OAR path - Load a "
+"regions data from an OAR archive ."
+
+#: oswp-ConsoleCommand.php:146
+msgid "load xml file name -newUID x y z - Load a regions data from XML format"
+msgstr "load xml file name -newUID x y z - Load a regions data from XML format"
+
+#: oswp-ConsoleCommand.php:147
+msgid "load xml2 file name - Load a regions data from XML2 format"
+msgstr "load xml2 file name - Load a regions data from XML2 format"
+
+#: oswp-ConsoleCommand.php:148
+msgid "login disable - Disable simulator logins"
+msgstr "login disable - Disable simulator logins"
+
+#: oswp-ConsoleCommand.php:149
+msgid "login enable - Enable simulator logins"
+msgstr "login enable - Enable simulator logins"
+
+#: oswp-ConsoleCommand.php:150
+msgid "login status - Show login status"
+msgstr "login status - Show login status"
+
+#. Author of the plugin
+msgid "Manfred Aabye"
+msgstr "Manfred Aabye"
+
+#: oswp-ConsoleCommand.php:151
+msgid ""
+"monitor report - Returns a variety of statistics about the current region "
+"and/or simulator"
+msgstr ""
+"monitor report - Returns a variety of statistics about the current region "
+"and/or simulator"
+
+#: oswp-ConsoleCommand.php:66
+msgid "OpenSimulator Console Commands"
+msgstr "OpenSimulator Console Commands"
+
+#. Description of the plugin
+msgid ""
+"OpenSimulator WordPress Console Command only appears in the Admin menu. The "
+"plugin will be added to the left side of your dashboard menu. The plugin "
+"sends a freely selectable command to the OpenSimulator."
+msgstr ""
+"OpenSimulator WordPress Console Command only appears in the Admin menu. The "
+"plugin will be added to the left side of your dashboard menu. The plugin "
+"sends a freely selectable command to the OpenSimulator."
+
+#. Name of the plugin
+msgid "oswp-consolecommand"
+msgstr "oswp-consolecommand"
+
+#: oswp-ConsoleCommand.php:152
+msgid ""
+"physics get param|ALL - Get physics parameter from currently selected region"
+msgstr ""
+"physics get param| ALL - Get physics parameter from currently selected region"
+
+#: oswp-ConsoleCommand.php:153
+msgid "physics list - List settable physics parameters"
+msgstr "physics list - List settable physics parameters"
+
+#: oswp-ConsoleCommand.php:154
+msgid ""
+"physics set param value|TRUE|FALSE localID|ALL - Set physics parameter from "
+"currently selected region"
+msgstr ""
+"physics set param value| TRUE| FALSE localID| ALL - Set physics parameter "
+"from currently selected region"
+
+#: oswp-ConsoleCommand.php:155
+msgid "quit - Quit the application"
+msgstr "quit - Quit the application"
+
+#: oswp-ConsoleCommand.php:156
+msgid ""
+"region get - Show control information for the currently selected region host "
+"name, max physical prim size, etc."
+msgstr ""
+"region get - Show control information for the currently selected region host "
+"name, max physical prim size, etc."
+
+#: oswp-ConsoleCommand.php:157
+msgid "region restart abort message - Abort a region restart"
+msgstr "region restart abort message - Abort a region restart"
+
+#: oswp-ConsoleCommand.php:158
+msgid ""
+"region restart bluebox message delta seconds+ - Schedule a region restart"
+msgstr ""
+"region restart bluebox message delta seconds+ - Schedule a region restart"
+
+#: oswp-ConsoleCommand.php:159
+msgid ""
+"region restart notice message delta seconds+ - Schedule a region restart"
+msgstr ""
+"region restart notice message delta seconds+ - Schedule a region restart"
+
+#: oswp-ConsoleCommand.php:160
+msgid "region set - Set control information for the currently selected region."
+msgstr ""
+"region set - Set control information for the currently selected region."
+
+#: oswp-ConsoleCommand.php:161
+msgid "remove-region name - Remove a region from this simulator"
+msgstr "remove-region name - Remove a region from this simulator"
+
+#: oswp-ConsoleCommand.php:162
+msgid ""
+"reset user cache - reset user cache to allow changed settings to be applied"
+msgstr ""
+"reset user cache - reset user cache to allow changed settings to be applied"
+
+#: oswp-ConsoleCommand.php:163
+msgid "restart - Restart the currently selected regions in this instance"
+msgstr "restart - Restart the currently selected regions in this instance"
+
+#: oswp-ConsoleCommand.php:164
+msgid ""
+"rotate scene degrees centerX, centerY - Rotates all scene objects around "
+"centerX, centerY default 128, 128 please back up your region before using."
+msgstr ""
+"rotate scene degrees centerX, centerY - Rotates all scene objects around "
+"centerX, centerY default 128, 128 please back up your region before using."
+
+#: oswp-ConsoleCommand.php:165
+msgid ""
+"save iar -h|--home=url --noassets first last inventory path password IAR "
+"path -c|--creators -e|--exclude=name/uuid -f|--excludefolder=foldername/uuid "
+"-v|--verbose - Save user inventory archive IAR."
+msgstr ""
+"save iar -h|--home=url --noassets first last inventory path password IAR "
+"path -c|--creators -e|--exclude=name/uuid -f|--excludefolder=foldername/uuid "
+"-v|--verbose - Save user inventory archive IAR."
+
+#: oswp-ConsoleCommand.php:166
+msgid ""
+"save oar -h|--home=url --noassets --publish --perm=permissions --all OAR "
+"path - Save a regions data to an OAR archive."
+msgstr ""
+"save oar -h|--home=url --noassets --publish --perm=permissions --all OAR "
+"path - Save a regions data to an OAR archive."
+
+#: oswp-ConsoleCommand.php:167
+msgid "save prims xml2 prim name file name - Save named prim to XML2"
+msgstr "save prims xml2 prim name file name - Save named prim to XML2"
+
+#: oswp-ConsoleCommand.php:168
+msgid "save xml file name - Save a regions data in XML format"
+msgstr "save xml file name - Save a regions data in XML format"
+
+#: oswp-ConsoleCommand.php:169
+msgid "save xml2 file name - Save a regions data in XML2 format"
+msgstr "save xml2 file name - Save a regions data in XML2 format"
+
+#: oswp-ConsoleCommand.php:170
+msgid ""
+"scale scene factor - Scales the scene objects please back up your region "
+"before using"
+msgstr ""
+"scale scene factor - Scales the scene objects please back up your region "
+"before using"
+
+#: oswp-ConsoleCommand.php:171
+msgid "scripts resume script-item-uuid+ - Resumes all suspended scripts"
+msgstr "scripts resume script-item-uuid+ - Resumes all suspended scripts"
+
+#: oswp-ConsoleCommand.php:172
+msgid "scripts show script-item-uuid+ - Show script information"
+msgstr "scripts show script-item-uuid+ - Show script information"
+
+#: oswp-ConsoleCommand.php:173
+msgid "scripts start script-item-uuid+ - Starts all stopped scripts"
+msgstr "scripts start script-item-uuid+ - Starts all stopped scripts"
+
+#: oswp-ConsoleCommand.php:174
+msgid "scripts stop script-item-uuid+ - Stops all running scripts"
+msgstr "scripts stop script-item-uuid+ - Stops all running scripts"
+
+#: oswp-ConsoleCommand.php:175
+msgid "scripts suspend script-item-uuid+ - Suspends all running scripts"
+msgstr "scripts suspend script-item-uuid+ - Suspends all running scripts"
+
+#: oswp-ConsoleCommand.php:176
+msgid "set log level level - Set the console logging level for this session."
+msgstr "set log level level - Set the console logging level for this session."
+
+#: oswp-ConsoleCommand.php:177
+msgid ""
+"set terrain heights corner min max x y - Sets the terrain texture heights on "
+"corner #corner to min/max, if x or y are specified, it will only set it on "
+"regions with a matching coordinate. Specify -1 in x or y to wildcard that "
+"coordinate. Corner # SW = 0, NW = 1, SE = 2, NE = 3, all corners = -1."
+msgstr ""
+"set terrain heights corner min max x y - Sets the terrain texture heights on "
+"corner #corner to min/max, if x or y are specified, it will only set it on "
+"regions with a matching coordinate. Specify -1 in x or y to wildcard that "
+"coordinate. Corner # SW = 0, NW = 1, SE = 2, NE = 3, all corners = -1."
+
+#: oswp-ConsoleCommand.php:178
+msgid ""
+"set terrain texture number uuid x y - Sets the terrain number to uuid, if x "
+"or y are specified, it will only set it on regions with a matching "
+"coordinate. Specify -1 in x or y to wildcard that coordinate."
+msgstr ""
+"set terrain texture number uuid x y - Sets the terrain number to uuid, if x "
+"or y are specified, it will only set it on regions with a matching "
+"coordinate. Specify -1 in x or y to wildcard that coordinate."
+
+#: oswp-ConsoleCommand.php:179
+msgid ""
+"set water height height x y - Sets the water height in meters.  If x and y "
+"are specified, it will only set it on regions with a matching coordinate. "
+"Specify -1 in x or y to wildcard that coordinate."
+msgstr ""
+"set water height height x y - Sets the water height in meters.  If x and y "
+"are specified, it will only set it on regions with a matching coordinate. "
+"Specify -1 in x or y to wildcard that coordinate."
+
+#: oswp-ConsoleCommand.php:180
+msgid ""
+"show animations first-name last-name - Show animation information for "
+"avatars in this simulator."
+msgstr ""
+"show animations first-name last-name - Show animation information for "
+"avatars in this simulator."
+
+#: oswp-ConsoleCommand.php:181
+msgid "show appearance first-name last-name - Synonym for appearance show"
+msgstr "show appearance first-name last-name - Synonym for appearance show"
+
+#: oswp-ConsoleCommand.php:182
+msgid "show asset ID - Show asset information"
+msgstr "show asset ID - Show asset information"
+
+#: oswp-ConsoleCommand.php:183
+msgid "show caps list - Shows list of registered capabilities for users."
+msgstr "show caps list - Shows list of registered capabilities for users."
+
+#: oswp-ConsoleCommand.php:184
+msgid ""
+"show caps stats by cap cap-name - Shows statistics on capabilities use by "
+"capability."
+msgstr ""
+"show caps stats by cap cap-name - Shows statistics on capabilities use by "
+"capability."
+
+#: oswp-ConsoleCommand.php:185
+msgid ""
+"show caps stats by user first-name last-name - Shows statistics on "
+"capabilities use by user."
+msgstr ""
+"show caps stats by user first-name last-name - Shows statistics on "
+"capabilities use by user."
+
+#: oswp-ConsoleCommand.php:186
+msgid "show checks - Show checks configured for this server"
+msgstr "show checks - Show checks configured for this server"
+
+#: oswp-ConsoleCommand.php:187
+msgid "show circuits - Show agent circuit data"
+msgstr "show circuits - Show agent circuit data"
+
+#: oswp-ConsoleCommand.php:188
+msgid "show connections - Show connection data"
+msgstr "show connections - Show connection data"
+
+#: oswp-ConsoleCommand.php:189
+msgid ""
+"show eq - Show contents of event queues for logged in avatars.  Used for "
+"debugging."
+msgstr ""
+"show eq - Show contents of event queues for logged in avatars.  Used for "
+"debugging."
+
+#: oswp-ConsoleCommand.php:190
+msgid "show http-handlers - Show all registered http handlers"
+msgstr "show http-handlers - Show all registered http handlers"
+
+#: oswp-ConsoleCommand.php:191
+msgid "show hyperlinks - List the HG regions"
+msgstr "show hyperlinks - List the HG regions"
+
+#: oswp-ConsoleCommand.php:192
+msgid ""
+"show image queues first-name last-name - Show the image queues textures "
+"downloaded via UDP for a particular client."
+msgstr ""
+"show image queues first-name last-name - Show the image queues textures "
+"downloaded via UDP for a particular client."
+
+#: oswp-ConsoleCommand.php:193
+msgid "show info - Show general information about the server"
+msgstr "show info - Show general information about the server"
+
+#: oswp-ConsoleCommand.php:194
+msgid "show modules - Show module data"
+msgstr "show modules - Show module data"
+
+#: oswp-ConsoleCommand.php:195
+msgid ""
+"show name uuid - Show the bindings between a single user UUID and a user name"
+msgstr ""
+"show name uuid - Show the bindings between a single user UUID and a user name"
+
+#: oswp-ConsoleCommand.php:196
+msgid "show names - Show the bindings between user UUIDs and user names"
+msgstr "show names - Show the bindings between user UUIDs and user names"
+
+#: oswp-ConsoleCommand.php:197
+msgid "show neighbours - Shows the local region neighbours"
+msgstr "show neighbours - Shows the local region neighbours"
+
+#: oswp-ConsoleCommand.php:198
+msgid ""
+"show object id --full UUID-or-localID - Show details of a scene object with "
+"the given UUID or localID"
+msgstr ""
+"show object id --full UUID-or-localID - Show details of a scene object with "
+"the given UUID or localID"
+
+#: oswp-ConsoleCommand.php:199
+msgid ""
+"show object name --full --regex name - Show details of scene objects with "
+"the given name."
+msgstr ""
+"show object name --full --regex name - Show details of scene objects with "
+"the given name."
+
+#: oswp-ConsoleCommand.php:200
+msgid ""
+"show object owner --full OwnerID - Show details of scene objects with given "
+"owner."
+msgstr ""
+"show object owner --full OwnerID - Show details of scene objects with given "
+"owner."
+
+#: oswp-ConsoleCommand.php:201
+msgid ""
+"show object pos --full start x, start y , start z end x, end y, end z - Show "
+"details of scene objects within give volume"
+msgstr ""
+"show object pos --full start x, start y , start z end x, end y, end z - Show "
+"details of scene objects within give volume"
+
+#: oswp-ConsoleCommand.php:202
+msgid ""
+"show part id UUID-or-localID - Show details of a scene object part with the "
+"given UUID or localID"
+msgstr ""
+"show part id UUID-or-localID - Show details of a scene object part with the "
+"given UUID or localID"
+
+#: oswp-ConsoleCommand.php:203
+msgid ""
+"show part name --regex name - Show details of scene object parts with the "
+"given name."
+msgstr ""
+"show part name --regex name - Show details of scene object parts with the "
+"given name."
+
+#: oswp-ConsoleCommand.php:204
+msgid ""
+"show part pos start x, start y , start z end x, end y, end z - Show details "
+"of scene object parts within the given volume."
+msgstr ""
+"show part pos start x, start y , start z end x, end y, end z - Show details "
+"of scene object parts within the given volume."
+
+#: oswp-ConsoleCommand.php:205
+msgid ""
+"show pending-objects - Show # of objects on the pending queues of all scene "
+"viewers"
+msgstr ""
+"show pending-objects - Show # of objects on the pending queues of all scene "
+"viewers"
+
+#: oswp-ConsoleCommand.php:206
+msgid "show pqueues full - Show priority queue data for each client"
+msgstr "show pqueues full - Show priority queue data for each client"
+
+#: oswp-ConsoleCommand.php:207
+msgid "show queues full - Show queue data for each client"
+msgstr "show queues full - Show queue data for each client"
+
+#: oswp-ConsoleCommand.php:208
+msgid "show ratings - Show rating data"
+msgstr "show ratings - Show rating data"
+
+#: oswp-ConsoleCommand.php:209
+msgid ""
+"show region - Show control information for the currently selected region "
+"host name, max physical prim size, etc."
+msgstr ""
+"show region - Show control information for the currently selected region "
+"host name, max physical prim size, etc."
+
+#: oswp-ConsoleCommand.php:210
+msgid "show regions - Show region data"
+msgstr "show regions - Show region data"
+
+#: oswp-ConsoleCommand.php:211
+msgid "show regionsinview - Shows regions that can be seen from a region"
+msgstr "show regionsinview - Shows regions that can be seen from a region"
+
+#: oswp-ConsoleCommand.php:212
+msgid ""
+"show scene - Show live information for the currently selected scene fps, "
+"prims, etc."
+msgstr ""
+"show scene - Show live information for the currently selected scene fps, "
+"prims, etc."
+
+#: oswp-ConsoleCommand.php:213
+msgid "show script sensors - Show script sensors information"
+msgstr "show script sensors - Show script sensors information"
+
+#: oswp-ConsoleCommand.php:214
+msgid "show script timers - Show script sensors information"
+msgstr "show script timers - Show script sensors information"
+
+#: oswp-ConsoleCommand.php:215
+msgid "show scripts script-item-uuid+ - Show script information"
+msgstr "show scripts script-item-uuid+ - Show script information"
+
+#: oswp-ConsoleCommand.php:216
+msgid ""
+"show stats - show useful statistical information for this server. See Frame "
+"Statistics Values below for more information."
+msgstr ""
+"show stats - show useful statistical information for this server. See Frame "
+"Statistics Values below for more information."
+
+#: oswp-ConsoleCommand.php:217
+msgid ""
+"show threadpool calls complete - Show details about threadpool calls that "
+"have been completed."
+msgstr ""
+"show threadpool calls complete - Show details about threadpool calls that "
+"have been completed."
+
+#: oswp-ConsoleCommand.php:218
+msgid "show threads - Show thread status"
+msgstr "show threads - Show thread status"
+
+#: oswp-ConsoleCommand.php:219
+msgid ""
+"show throttles full - Show throttle settings for each client and for the "
+"server overall"
+msgstr ""
+"show throttles full - Show throttle settings for each client and for the "
+"server overall"
+
+#: oswp-ConsoleCommand.php:220
+msgid "show uptime - Show server uptime"
+msgstr "show uptime - Show server uptime"
+
+#: oswp-ConsoleCommand.php:221
+msgid "show users full - Show user data for users currently on the region"
+msgstr "show users full - Show user data for users currently on the region"
+
+#: oswp-ConsoleCommand.php:222
+msgid "show version - Show server version"
+msgstr "show version - Show server version"
+
+#: oswp-ConsoleCommand.php:223
+msgid "shutdown - Quit the application"
+msgstr "shutdown - Quit the application"
+
+#: oswp-ConsoleCommand.php:224
+msgid ""
+"sit user name --regex first-name last-name - Sit the named user on an "
+"unoccupied object with a sit target."
+msgstr ""
+"sit user name --regex first-name last-name - Sit the named user on an "
+"unoccupied object with a sit target."
+
+#: oswp-ConsoleCommand.php:225
+msgid "stand user name --regex first-name last-name - Stand the named user."
+msgstr "stand user name --regex first-name last-name - Stand the named user."
+
+#: oswp-ConsoleCommand.php:226
+msgid ""
+"stats record start|stop - Control whether stats are being regularly recorded "
+"to a separate file."
+msgstr ""
+"stats record start|stop - Control whether stats are being regularly recorded "
+"to a separate file."
+
+#: oswp-ConsoleCommand.php:227
+msgid ""
+"stats save path - Save stats snapshot to a file.  If the file already "
+"exists, then the report is appended."
+msgstr ""
+"stats save path - Save stats snapshot to a file.  If the file already "
+"exists, then the report is appended."
+
+#: oswp-ConsoleCommand.php:228
+msgid ""
+"stats show - a synonym for show stats - Show statistical information for "
+"this server"
+msgstr ""
+"stats show - a synonym for show stats - Show statistical information for "
+"this server"
+
+#: oswp-ConsoleCommand.php:229
+msgid "sun current_time value - time in seconds of the simulator"
+msgstr "sun current_time value - time in seconds of the simulator"
+
+#: oswp-ConsoleCommand.php:230
+msgid "sun day_length value - number of hours to a day"
+msgstr "sun day_length value - number of hours to a day"
+
+#: oswp-ConsoleCommand.php:231
+msgid "sun day_night_offset value - induces a horizon shift"
+msgstr "sun day_night_offset value - induces a horizon shift"
+
+#: oswp-ConsoleCommand.php:232
+msgid ""
+"sun day_time_sun_hour_scale value - scales day light vs nite hours to change "
+"day/night ratio"
+msgstr ""
+"sun day_time_sun_hour_scale value - scales day light vs nite hours to change "
+"day/night ratio"
+
+#: oswp-ConsoleCommand.php:233
+msgid "sun help - list parameters that can be changed"
+msgstr "sun help - list parameters that can be changed"
+
+#: oswp-ConsoleCommand.php:234
+msgid "sun list - list parameters that can be changed"
+msgstr "sun list - list parameters that can be changed"
+
+#: oswp-ConsoleCommand.php:235
+msgid ""
+"sun update_interval value - how often to update the suns position in frames"
+msgstr ""
+"sun update_interval value - how often to update the suns position in frames"
+
+#: oswp-ConsoleCommand.php:236
+msgid "sun year_length value - number of days to a year"
+msgstr "sun year_length value - number of days to a year"
+
+#: oswp-ConsoleCommand.php:237
+msgid ""
+"teleport user first-name last-name destination - Teleport a user in this "
+"simulator to the given destination"
+msgstr ""
+"teleport user first-name last-name destination - Teleport a user in this "
+"simulator to the given destination"
+
+#: oswp-ConsoleCommand.php:238
+msgid "terrain bake - Saves the current terrain into the regions baked map."
+msgstr "terrain bake - Saves the current terrain into the regions baked map."
+
+#: oswp-ConsoleCommand.php:239
+msgid "terrain effect - Runs a specified plugin effect."
+msgstr "terrain effect - Runs a specified plugin effect."
+
+#: oswp-ConsoleCommand.php:240
+msgid "terrain elevate - Raises the current heightmap by the specified amount."
+msgstr ""
+"terrain elevate - Raises the current heightmap by the specified amount."
+
+#: oswp-ConsoleCommand.php:241
+msgid "terrain fill - Fills the current heightmap with a specified value."
+msgstr "terrain fill - Fills the current heightmap with a specified value."
+
+#: oswp-ConsoleCommand.php:242
+msgid "terrain flip - Flips the current terrain about the X or Y axis."
+msgstr "terrain flip - Flips the current terrain about the X or Y axis."
+
+#: oswp-ConsoleCommand.php:243
+msgid "terrain load - Loads a terrain from a specified file."
+msgstr "terrain load - Loads a terrain from a specified file."
+
+#: oswp-ConsoleCommand.php:244
+msgid "terrain load-tile - Loads a terrain from a section of a larger file."
+msgstr "terrain load-tile - Loads a terrain from a section of a larger file."
+
+#: oswp-ConsoleCommand.php:245
+msgid "terrain lower - Lowers the current heightmap by the specified amount."
+msgstr "terrain lower - Lowers the current heightmap by the specified amount."
+
+#: oswp-ConsoleCommand.php:246
+msgid "terrain max - Sets the maximum terrain height to the specified value."
+msgstr "terrain max - Sets the maximum terrain height to the specified value."
+
+#: oswp-ConsoleCommand.php:247
+msgid "terrain min - Sets the minimum terrain height to the specified value."
+msgstr "terrain min - Sets the minimum terrain height to the specified value."
+
+#: oswp-ConsoleCommand.php:248
+msgid ""
+"terrain modify operation value area taper - Modifies the terrain as "
+"instructed."
+msgstr ""
+"terrain modify operation value area taper - Modifies the terrain as "
+"instructed."
+
+#: oswp-ConsoleCommand.php:249
+msgid "terrain multiply - Multiplies the heightmap by the value specified."
+msgstr "terrain multiply - Multiplies the heightmap by the value specified."
+
+#: oswp-ConsoleCommand.php:250
+msgid ""
+"terrain newbrushes - Enables experimental brushes which replace the standard "
+"terrain brushes."
+msgstr ""
+"terrain newbrushes - Enables experimental brushes which replace the standard "
+"terrain brushes."
+
+#: oswp-ConsoleCommand.php:251
+msgid ""
+"terrain rescale - Rescales the current terrain to fit between the given min "
+"and max heights."
+msgstr ""
+"terrain rescale - Rescales the current terrain to fit between the given min "
+"and max heights."
+
+#: oswp-ConsoleCommand.php:252
+msgid ""
+"terrain revert - Loads the baked map terrain into the regions heightmap."
+msgstr ""
+"terrain revert - Loads the baked map terrain into the regions heightmap."
+
+#: oswp-ConsoleCommand.php:253
+msgid "terrain save - Saves the current heightmap to a specified file."
+msgstr "terrain save - Saves the current heightmap to a specified file."
+
+#: oswp-ConsoleCommand.php:254
+msgid "terrain save-tile - Saves the current heightmap to the larger file."
+msgstr "terrain save-tile - Saves the current heightmap to the larger file."
+
+#: oswp-ConsoleCommand.php:255
+msgid "terrain show - Shows terrain height at a given co-ordinate."
+msgstr "terrain show - Shows terrain height at a given co-ordinate."
+
+#: oswp-ConsoleCommand.php:256
+msgid ""
+"terrain stats - Shows some information about the regions heightmap for "
+"debugging purposes."
+msgstr ""
+"terrain stats - Shows some information about the regions heightmap for "
+"debugging purposes."
+
+#: oswp-ConsoleCommand.php:257
+msgid ""
+"threads abort thread-id - Abort a managed thread.  Use show threads to find "
+"possible threads."
+msgstr ""
+"threads abort thread-id - Abort a managed thread.  Use show threads to find "
+"possible threads."
+
+#: oswp-ConsoleCommand.php:258
+msgid "threads show - Show thread status.  Synonym for show threads"
+msgstr "threads show - Show thread status.  Synonym for show threads"
+
+#: oswp-ConsoleCommand.php:259
+msgid ""
+"translate scene xOffset yOffset zOffset - translates the scene objects "
+"please back up your region before using"
+msgstr ""
+"translate scene xOffset yOffset zOffset - translates the scene objects "
+"please back up your region before using"
+
+#: oswp-ConsoleCommand.php:260
+msgid "tree active - Change activity state for the trees module."
+msgstr "tree active - Change activity state for the trees module."
+
+#: oswp-ConsoleCommand.php:261
+msgid "tree freeze - Freeze/Unfreeze activity for a defined copse."
+msgstr "tree freeze - Freeze/Unfreeze activity for a defined copse."
+
+#: oswp-ConsoleCommand.php:262
+msgid "tree load - Load a copse definition from an xml file."
+msgstr "tree load - Load a copse definition from an xml file."
+
+#: oswp-ConsoleCommand.php:263
+msgid "tree plant - Start the planting on a copse."
+msgstr "tree plant - Start the planting on a copse."
+
+#: oswp-ConsoleCommand.php:264
+msgid "tree rate - Reset the tree update rate mSec."
+msgstr "tree rate - Reset the tree update rate mSec."
+
+#: oswp-ConsoleCommand.php:265
+msgid "tree reload - Reload copse definitions from the in-scene trees."
+msgstr "tree reload - Reload copse definitions from the in-scene trees."
+
+#: oswp-ConsoleCommand.php:266
+msgid "tree remove - Remove a copse definition and all its in-scene trees."
+msgstr "tree remove - Remove a copse definition and all its in-scene trees."
+
+#: oswp-ConsoleCommand.php:267
+msgid "tree statistics - Log statistics about the trees."
+msgstr "tree statistics - Log statistics about the trees."
+
+#: oswp-ConsoleCommand.php:268
+msgid "unlink-region local name - Unlink a hypergrid region"
+msgstr "unlink-region local name - Unlink a hypergrid region"
+
+#: oswp-ConsoleCommand.php:269
+msgid "vivox debug on|off - Set vivox debugging"
+msgstr "vivox debug on|off - Set vivox debugging"
+
+#: oswp-ConsoleCommand.php:270
+msgid ""
+"wearables check first-name last-name - Check that the wearables of a given "
+"avatar in the scene are valid."
+msgstr ""
+"wearables check first-name last-name - Check that the wearables of a given "
+"avatar in the scene are valid."
+
+#: oswp-ConsoleCommand.php:271
+msgid ""
+"wearables show first-name last-name - Show information about wearables for "
+"avatars."
+msgstr ""
+"wearables show first-name last-name - Show information about wearables for "
+"avatars."
+
+#: oswp-ConsoleCommand.php:272
+msgid "wind base wind_update_rate value - Get or set the wind update rate."
+msgstr "wind base wind_update_rate value - Get or set the wind update rate."
+
+#: oswp-ConsoleCommand.php:273
+msgid ""
+"wind ConfigurableWind avgDirection value - average wind direction in degrees"
+msgstr ""
+"wind ConfigurableWind avgDirection value - average wind direction in degrees"
+
+#: oswp-ConsoleCommand.php:274
+msgid "wind ConfigurableWind avgStrength value - average wind strength"
+msgstr "wind ConfigurableWind avgStrength value - average wind strength"
+
+#: oswp-ConsoleCommand.php:275
+msgid "wind ConfigurableWind rateChange value - rate of change"
+msgstr "wind ConfigurableWind rateChange value - rate of change"
+
+#: oswp-ConsoleCommand.php:276
+msgid ""
+"wind ConfigurableWind varDirection value - allowable variance in wind "
+"direction in +/- degrees"
+msgstr ""
+"wind ConfigurableWind varDirection value - allowable variance in wind "
+"direction in +/- degrees"
+
+#: oswp-ConsoleCommand.php:277
+msgid ""
+"wind ConfigurableWind varStrength value - allowable variance in wind strength"
+msgstr ""
+"wind ConfigurableWind varStrength value - allowable variance in wind strength"
+
+#: oswp-ConsoleCommand.php:278
+msgid "wind SimpleRandomWind strength value - wind strength"
+msgstr "wind SimpleRandomWind strength value - wind strength"
+
+#: oswp-ConsoleCommand.php:279
+msgid "windlight disable - Disable the windlight plugin."
+msgstr "windlight disable - Disable the windlight plugin."
+
+#: oswp-ConsoleCommand.php:280
+msgid "windlight enable - Enable the windlight plugin."
+msgstr "windlight enable - Enable the windlight plugin."
+
+#: oswp-ConsoleCommand.php:281
+msgid ""
+"windlight load - Load windlight profile from the database and broadcast."
+msgstr ""
+"windlight load - Load windlight profile from the database and broadcast."
+
+#: oswp-ConsoleCommand.php:282
+msgid "xengine status - Show status information"
+msgstr "xengine status - Show status information"

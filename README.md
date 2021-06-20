@@ -1,2 +1,2 @@
 # oswp
-oswp
+WordPress: wp-content/plugins
